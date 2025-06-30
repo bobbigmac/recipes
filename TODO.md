@@ -11,7 +11,7 @@
 ## 🔧 Immediate Fixes Needed
 
 ### Recipe Content
-- **Fix Recipe Formatting**: Several recipes have incorrect markdown indentation
+- **Fix Recipe Parser**: Recipes have inconsistent markdown indentation, allow that, so our recipes don't have to be strict.
   - `banana-bread.md`: Ingredients and instructions are over-indented
   - `chocolate-chip-cookies.md`: Similar indentation issues
   - `classic-pancakes.md`: Instructions formatting
@@ -28,17 +28,16 @@
 
 ### Recipe Management
 - **Recipe Metadata**: Add cooking time, difficulty, servings
-- **Recipe Images**: Optional image support in frontmatter
+- **Recipe Images**: Optional image support in frontmatter (might just not use images, you know what it looks like if you googled it and ended up here, if not, you can click a link on our page to someone's garbage ad filled hellsite)
 - **Recipe Categories**: Better tag organization and filtering
 - **Recipe Search**: Full-text search across ingredients and instructions
 - **Recipe Ratings**: User ratings and reviews system
 
 ### User Experience
 - **Print Styles**: CSS for recipe printing
-- **Recipe Scaling**: Adjust ingredient quantities
+- **Recipe Scaling**: Adjust ingredient quantities **GOOD**
 - **Unit Conversion**: Metric/imperial toggle
 - **Recipe Sharing**: Social media sharing buttons
-- **Recipe Collections**: User-created recipe lists
 
 ### Technical Improvements
 - **Performance**: Lazy loading for large recipe lists
@@ -85,17 +84,7 @@
 ### Content Strategy
 - **500 Recipe Target**: Systematic recipe addition process
 - **Quality Control**: Recipe review and testing workflow
-- **Community Input**: User-submitted recipe system
 - **Content Curation**: Featured and seasonal recipe collections
-
-### Technical Architecture
-- **CDN Integration**: Faster global content delivery
-- **Database Backend**: For user accounts and ratings (future)
-- **API Development**: RESTful API for recipe data
-- **Mobile App**: Native mobile application
-
-### Business Opportunities
-- **Monetization**: Affiliate links, sponsored content
-- **Premium Features**: Advanced filtering, meal planning
-- **Partnerships**: Recipe book publishers, food brands
-- **Data Insights**: Recipe popularity analytics 
+- **Ingredients search**: Use tags/meta to setup ingredients filters (and maybe other advanced)
+- Links to good recipes elsewhere
+- **Monetization**: Affiliate links?
