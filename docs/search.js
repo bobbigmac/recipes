@@ -4,11 +4,11 @@ let searchIndex = [];
 // Get base path for the site
 function getBasePath() {
   const path = window.location.pathname;
-  if (path.includes('/recipes/')) {
-    // We're on a recipe page, base is one level up
+  if (path.includes('/recipes/') && path.endsWith('.html')) {
+    // We're on a recipe page like /recipes/banana-bread.html, base is one level up
     return '../';
   } else {
-    // We're on the index page
+    // We're on the index page like /recipes/ or /recipes/index.html
     return './';
   }
 }
