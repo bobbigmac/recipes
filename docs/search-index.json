@@ -5,8 +5,30 @@
     "tags": [
       "dessert"
     ],
-    "content": "\n  banana bread\n   ingredients\n  3 ripe bananas  mashed  \n    cup melted butter  \n  1 cup sugar  \n  1 egg  \n  1 tsp vanilla  \n  1 tsp baking soda  \n  1   cups flour  \n   instructions\n1  mix wet ingredients   \n2  fold in dry  pour into loaf tin   \n3  bake 175  c 55 60 min \n   links\n   king arthur s classic banana bread  https   www kingarthurbaking com recipes classic banana bread recipe \n   serious eats  the food lab s banana bread  https   www seriouseats com food lab banana bread recipe \n   america s test kitchen banana bread  https   www americastestkitchen com recipes 11651 banana bread \n\n",
+    "content": "\n  banana bread\n   ingredients\n  3 ripe bananas  mashed  \n    cup melted butter  \n  1 cup sugar  \n  1 egg  \n  1 tsp vanilla  \n  1 tsp baking soda  \n  1   cups flour  \n   instructions\n1  mix wet ingredients   \n2  fold in dry  pour into loaf tin   \n3  bake 175  c 55 60 min \n",
     "url": "recipes/banana-bread.html"
+  },
+  {
+    "slug": "beef-bourguignon",
+    "title": "Beef Bourguignon",
+    "tags": [
+      "main",
+      "french",
+      "stew"
+    ],
+    "content": "\n  beef bourguignon\n   ingredients\n  1kg beef chuck  cubed\n  150g bacon  diced\n  2 onions  chopped\n  2 carrots  sliced\n  2 cloves garlic  minced\n  2 tbsp tomato paste\n  500ml red wine\n  300ml beef stock\n  2 tbsp flour\n  2 tbsp oil\n  1 bay leaf\n  1 tsp thyme\n  200g mushrooms  quartered\n  salt and pepper\n   instructions\n1  brown beef in oil  set aside  fry bacon until crisp \n2  add onions  carrots  garlic  cook 5 min \n3  stir in tomato paste  flour  cook 2 min \n4  add wine  stock  herbs  return beef and bacon \n5  simmer covered 2 hours until tender \n6  add mushrooms  cook 20 min uncovered \n7  season to taste  serve with potatoes or bread  ",
+    "url": "recipes/beef-bourguignon.html"
+  },
+  {
+    "slug": "british-curry",
+    "title": "British-style Chicken Curry",
+    "tags": [
+      "main",
+      "indian",
+      "spicy"
+    ],
+    "content": "\n  british style chicken curry\n   ingredients\n  500g chicken breast  cubed\n  2 onions  diced\n  4 cloves garlic  minced\n  2 tbsp ginger  grated\n  2 tbsp curry powder\n  1 tsp turmeric\n  1 tsp cumin\n  1 tsp coriander\n  1 tsp garam masala\n  400ml coconut milk\n  2 tbsp tomato pur e\n  fresh coriander\n  basmati rice\n   instructions\n1  brown chicken in oil  remove from pan \n2  fry onions until golden  add garlic and ginger \n3  add all spices  cook 1 min until fragrant \n4  return chicken  add coconut milk and tomato pur e \n5  simmer 20 min until sauce thickens \n6  garnish with coriander  serve with rice  ",
+    "url": "recipes/british-curry.html"
   },
   {
     "slug": "caesar-salad",
@@ -18,12 +40,35 @@
     "url": "recipes/caesar-salad.html"
   },
   {
+    "slug": "chana-masala",
+    "title": "Chana Masala",
+    "tags": [
+      "main",
+      "indian",
+      "lentil",
+      "vegetarian"
+    ],
+    "content": "\n  chana masala\n   ingredients\n  2 cans chickpeas  drained\n  2 onions  chopped\n  2 tomatoes  chopped\n  3 cloves garlic  minced\n  1 tbsp ginger  grated\n  2 green chilies  sliced\n  2 tsp ground coriander\n  2 tsp ground cumin\n  1 tsp turmeric\n  1 tsp chili powder\n  1 tsp garam masala\n  1 tsp amchur  dry mango powder  optional \n  2 tbsp oil\n  fresh coriander\n  salt\n   instructions\n1  fry onions in oil until golden  add garlic  ginger  and chilies \n2  add all spices  cook 1 min \n3  add tomatoes  cook until soft \n4  add chickpeas  200ml water  simmer 20 min \n5  garnish with coriander  serve with rice or roti  ",
+    "url": "recipes/chana-masala.html"
+  },
+  {
+    "slug": "chicken-tikka-masala",
+    "title": "Chicken Tikka Masala",
+    "tags": [
+      "main",
+      "indian",
+      "curry"
+    ],
+    "content": "\n  chicken tikka masala\n   ingredients\n  600g chicken breast  cubed\n  150g plain yogurt\n  2 tbsp lemon juice\n  2 tsp garam masala\n  1 tsp turmeric\n  1 tsp ground cumin\n  1 tsp paprika\n  1 tsp chili powder\n  2 onions  finely chopped\n  3 cloves garlic  minced\n  1 tbsp ginger  grated\n  400g chopped tomatoes\n  200ml double cream\n  2 tbsp tomato pur e\n  2 tbsp oil\n  salt\n   instructions\n1  marinate chicken in yogurt  lemon juice  half the spices  and salt for 1  hour \n2  grill or pan fry chicken until charred  set aside \n3  fry onions in oil until golden  add garlic and ginger \n4  add remaining spices  cook 1 min \n5  add tomato pur e  chopped tomatoes  simmer 10 min \n6  add cream  simmer 5 min  then add chicken \n7  simmer 10 min  adjust seasoning  serve with rice  ",
+    "url": "recipes/chicken-tikka-masala.html"
+  },
+  {
     "slug": "chocolate-chip-cookies",
     "title": "Chocolate Chip Cookies",
     "tags": [
       "dessert"
     ],
-    "content": "\n  chocolate chip cookies\n   ingredients\n  1 cup butter  softened  \n  1 cup sugar  \n  1 cup brown sugar  \n  2 eggs  \n  3 cups flour  \n  1 tsp baking soda  \n  2 cups chocolate chips  \n   instructions\n1  cream butter   sugars  beat in eggs   \n2  stir in dry ingredients  fold chips   \n3  scoop onto tray  bake 180  c 10 12 min \n   links\n   nyt s best chocolate chip cookies  https   cooking nytimes com recipes 1015819 chocolate chip cookies \n   serious eats  the best chocolate chip cookies  https   www seriouseats com best chocolate chip cookies recipe \n   sally s baking addiction  chewy chocolate chip cookies  https   sallysbakingaddiction com chewy chocolate chip cookies  \n\n",
+    "content": "\n  chocolate chip cookies\n   ingredients\n  1 cup butter  softened  \n  1 cup sugar  \n  1 cup brown sugar  \n  2 eggs  \n  3 cups flour  \n  1 tsp baking soda  \n  2 cups chocolate chips  \n   instructions\n1  cream butter   sugars  beat in eggs   \n2  stir in dry ingredients  fold chips   \n3  scoop onto tray  bake 180  c 10 12 min \n",
     "url": "recipes/chocolate-chip-cookies.html"
   },
   {
@@ -34,6 +79,40 @@
     ],
     "content": "\n  classic pancakes\n   ingredients\n  1 cup all purpose flour  \n  2 tbsp sugar  \n  1 tsp baking powder  \n    tsp salt  \n  1 cup milk  \n  1 large egg  \n  2 tbsp melted butter  \n   instructions\n1  whisk dry ingredients   \n2  stir in wet ingredients until just combined   \n3  pour   cup portions on a hot greased griddle and cook until bubbles form  flip and cook until golden \n\n",
     "url": "recipes/classic-pancakes.html"
+  },
+  {
+    "slug": "cottage-pie",
+    "title": "Cottage Pie",
+    "tags": [
+      "main",
+      "british",
+      "comfort"
+    ],
+    "content": "\n  cottage pie\n   ingredients\n  500g beef mince\n  1 onion  diced\n  2 carrots  diced\n  2 tbsp tomato pur e\n  300ml beef stock\n  1 tbsp worcestershire sauce\n  1kg potatoes  peeled and cubed\n  50g butter\n  100ml milk\n  salt and pepper\n   instructions\n1  brown beef mince in large pan  remove excess fat \n2  add onion and carrots  cook 5 min until softened \n3  add tomato pur e  stock  and worcestershire sauce \n4  simmer 20 min until thickened  season well \n5  boil potatoes until tender  drain and mash with butter and milk \n6  transfer meat to ovenproof dish  top with mashed potato \n7  bake 200 c 25 30 min until golden and bubbling  ",
+    "url": "recipes/cottage-pie.html"
+  },
+  {
+    "slug": "dal-tadka",
+    "title": "Dal Tadka",
+    "tags": [
+      "main",
+      "indian",
+      "lentil",
+      "vegetarian"
+    ],
+    "content": "\n  dal tadka\n   ingredients\n  200g toor dal  yellow split lentils \n  1 onion  chopped\n  2 tomatoes  chopped\n  3 cloves garlic  minced\n  1 tbsp ginger  grated\n  2 green chilies  sliced\n  1 tsp cumin seeds\n  1 tsp turmeric\n  1 tsp chili powder\n  1 tsp garam masala\n  2 tbsp ghee or oil\n  fresh coriander\n  salt\n   instructions\n1  rinse dal  boil with turmeric and salt until soft \n2  heat ghee  fry cumin seeds  then onion  garlic  ginger  and chilies \n3  add tomatoes  cook until soft \n4  add chili powder and garam masala \n5  stir in cooked dal  simmer 10 min \n6  garnish with coriander  serve with rice or roti  ",
+    "url": "recipes/dal-tadka.html"
+  },
+  {
+    "slug": "fish-chips",
+    "title": "Fish and Chips",
+    "tags": [
+      "main",
+      "british",
+      "seafood"
+    ],
+    "content": "\n  fish and chips\n   ingredients\n  4 cod fillets\n  200g plain flour  or gf flour blend \n  1 tsp baking powder\n  300ml cold beer\n  4 large potatoes  cut into chips\n  oil for frying\n  salt and vinegar\n   instructions\n1  heat oil to 180 c for chips  fry until golden \n2  mix flour  baking powder  and beer for batter \n3  dip fish in batter  fry 4 5 min until crispy \n4  drain on paper towels  season with salt \n5  serve with chips  mushy peas  and vinegar  ",
+    "url": "recipes/fish-chips.html"
   },
   {
     "slug": "french-toast",
@@ -54,6 +133,28 @@
     "url": "recipes/fried-rice.html"
   },
   {
+    "slug": "greek-moussaka",
+    "title": "Greek Moussaka",
+    "tags": [
+      "main",
+      "greek",
+      "bake"
+    ],
+    "content": "\n  greek moussaka\n   ingredients\n  2 aubergines  sliced\n  500g lamb or beef mince\n  1 onion  chopped\n  2 cloves garlic  minced\n  400g chopped tomatoes\n  2 tbsp tomato pur e\n  1 tsp cinnamon\n  1 tsp oregano\n  2 tbsp olive oil\n  50g butter\n  50g flour\n  500ml milk\n  1 egg\n  50g grated cheese\n  salt and pepper\n   instructions\n1  salt aubergine slices  let sit 30 min  pat dry  fry in oil until golden \n2  brown mince  add onion  garlic  cook 5 min \n3  add tomatoes  pur e  cinnamon  oregano  simmer 20 min \n4  make b chamel  melt butter  stir in flour  add milk  cook until thick  beat in egg and cheese \n5  layer aubergine  meat sauce  b chamel in dish \n6  bake 180 c 40 min until golden  ",
+    "url": "recipes/greek-moussaka.html"
+  },
+  {
+    "slug": "green-curry",
+    "title": "Thai Green Curry",
+    "tags": [
+      "main",
+      "thai",
+      "curry"
+    ],
+    "content": "\n  thai green curry\n   ingredients\n  500g chicken thigh  sliced\n  2 tbsp green curry paste\n  400ml coconut milk\n  2 tbsp fish sauce\n  1 tbsp palm sugar\n  1 aubergine  cubed\n  1 red pepper  sliced\n  100g green beans\n  thai basil\n  jasmine rice\n   instructions\n1  fry curry paste in oil until fragrant \n2  add coconut milk  fish sauce  and palm sugar \n3  add chicken  simmer 10 min \n4  add vegetables  cook 5 min until tender \n5  garnish with thai basil  serve with rice  ",
+    "url": "recipes/green-curry.html"
+  },
+  {
     "slug": "grilled-cheese",
     "title": "Grilled Cheese",
     "tags": [
@@ -61,6 +162,50 @@
     ],
     "content": "\n  grilled cheese\n   ingredients\n  2 slices bread  \n  2 slices cheddar  \n  1 tbsp butter  \n   instructions\n1  butter bread outsides   \n2  sandwich cheese inside   \n3  grill in pan until golden both sides \n\n",
     "url": "recipes/grilled-cheese.html"
+  },
+  {
+    "slug": "instant-pot-baked-potatoes",
+    "title": "Instant Pot Baked Potatoes",
+    "tags": [
+      "side",
+      "vegetarian",
+      "quick"
+    ],
+    "content": "\n  instant pot baked potatoes\n   ingredients\n  4 large baking potatoes\n  1 cup water\n  salt and pepper\n  butter and toppings of choice\n   instructions\n1  wash potatoes and prick with fork \n2  add water to instant pot  place trivet inside \n3  arrange potatoes on trivet  season with salt \n4  seal lid  cook on manual pressure cook 15 min \n5  natural release 10 min  then quick release \n6  serve with butter and desired toppings  ",
+    "url": "recipes/instant-pot-baked-potatoes.html"
+  },
+  {
+    "slug": "jalfrezi",
+    "title": "Chicken Jalfrezi",
+    "tags": [
+      "main",
+      "indian",
+      "curry"
+    ],
+    "content": "\n  chicken jalfrezi\n   ingredients\n  600g chicken breast  cubed\n  2 onions  sliced\n  2 bell peppers  sliced\n  3 cloves garlic  minced\n  1 tbsp ginger  grated\n  2 green chilies  sliced\n  2 tsp ground cumin\n  2 tsp ground coriander\n  1 tsp turmeric\n  1 tsp chili powder\n  1 tsp garam masala\n  400g chopped tomatoes\n  2 tbsp tomato pur e\n  2 tbsp oil\n  salt\n   instructions\n1  fry onions  peppers  and chilies in oil until soft \n2  add garlic and ginger  cook 1 min \n3  add all spices  cook 1 min \n4  add chicken  brown lightly \n5  add tomatoes and pur e  simmer 15 min \n6  season to taste  serve with rice  ",
+    "url": "recipes/jalfrezi.html"
+  },
+  {
+    "slug": "korma",
+    "title": "Chicken Korma",
+    "tags": [
+      "main",
+      "indian",
+      "curry"
+    ],
+    "content": "\n  chicken korma\n   ingredients\n  600g chicken breast  cubed\n  2 onions  sliced\n  3 cloves garlic  minced\n  1 tbsp ginger  grated\n  100g ground almonds\n  200ml coconut milk\n  100ml double cream\n  2 tbsp yogurt\n  2 tbsp korma curry powder\n  1 tsp turmeric\n  1 tsp ground coriander\n  1 tsp ground cumin\n  1 tsp cardamom\n  2 tbsp oil\n  salt\n   instructions\n1  fry onions in oil until soft  add garlic and ginger \n2  add all spices  cook 1 min \n3  add chicken  brown lightly \n4  stir in ground almonds  coconut milk  yogurt  and cream \n5  simmer 20 min until chicken is cooked and sauce thickens \n6  season to taste  serve with rice  ",
+    "url": "recipes/korma.html"
+  },
+  {
+    "slug": "nehari",
+    "title": "Nehari",
+    "tags": [
+      "main",
+      "pakistani",
+      "stew"
+    ],
+    "content": "\n  nehari\n   ingredients\n  1kg beef shank  cubed\n  2 onions  sliced\n  4 cloves garlic  minced\n  1 tbsp ginger  grated\n  2 tbsp ghee or oil\n  2 tsp ground coriander\n  2 tsp ground cumin\n  1 tsp turmeric\n  1 tsp chili powder\n  1 tsp garam masala\n  1 tsp ground cardamom\n  1 tsp ground cinnamon\n  1 tsp ground cloves\n  2 tbsp wheat flour\n  1 tbsp ginger julienne\n  1 tbsp coriander leaves\n  1 lemon  sliced\n  salt\n   instructions\n1  brown beef in ghee  set aside \n2  fry onions until golden  add garlic and ginger \n3  add all spices  cook 1 min \n4  return beef  add 1l water  simmer covered 2 3 hours until tender \n5  mix flour with 2 tbsp water  stir into stew to thicken \n6  simmer 10 min  garnish with ginger  coriander  and lemon \n7  serve with naan or rice  ",
+    "url": "recipes/nehari.html"
   },
   {
     "slug": "omelette",
@@ -72,6 +217,71 @@
     "url": "recipes/omelette.html"
   },
   {
+    "slug": "ratatouille",
+    "title": "Ratatouille",
+    "tags": [
+      "main",
+      "french",
+      "vegetarian"
+    ],
+    "content": "\n  ratatouille\n   ingredients\n  1 aubergine  diced\n  2 courgettes  diced\n  1 red pepper  diced\n  1 yellow pepper  diced\n  1 onion  chopped\n  2 cloves garlic  minced\n  400g chopped tomatoes\n  2 tbsp olive oil\n  1 tsp thyme\n  1 tsp oregano\n  salt and pepper\n   instructions\n1  fry onion and garlic in oil until soft \n2  add aubergine  courgette  peppers  cook 10 min \n3  add tomatoes  herbs  salt  and pepper \n4  simmer 30 min until vegetables are tender \n5  serve hot or cold  ",
+    "url": "recipes/ratatouille.html"
+  },
+  {
+    "slug": "red-curry",
+    "title": "Thai Red Curry",
+    "tags": [
+      "main",
+      "thai",
+      "curry"
+    ],
+    "content": "\n  thai red curry\n   ingredients\n  500g chicken thigh  sliced\n  2 tbsp red curry paste\n  400ml coconut milk\n  2 tbsp fish sauce\n  1 tbsp palm sugar\n  1 aubergine  cubed\n  1 red pepper  sliced\n  100g green beans\n  thai basil\n  jasmine rice\n   instructions\n1  fry curry paste in oil until fragrant \n2  add coconut milk  fish sauce  and palm sugar \n3  add chicken  simmer 10 min \n4  add vegetables  cook 5 min until tender \n5  garnish with thai basil  serve with rice  ",
+    "url": "recipes/red-curry.html"
+  },
+  {
+    "slug": "rogan-josh",
+    "title": "Rogan Josh",
+    "tags": [
+      "main",
+      "indian",
+      "curry"
+    ],
+    "content": "\n  rogan josh\n   ingredients\n  700g lamb shoulder  cubed\n  2 onions  sliced\n  4 cloves garlic  minced\n  1 tbsp ginger  grated\n  2 tbsp tomato pur e\n  200g greek yogurt\n  2 tsp ground coriander\n  2 tsp ground cumin\n  2 tsp paprika\n  1 tsp turmeric\n  1 tsp garam masala\n  1 tsp chili powder\n  1 tsp ground cardamom\n  1 tsp ground cinnamon\n  2 tbsp oil\n  salt\n   instructions\n1  brown lamb in oil  set aside \n2  fry onions until golden  add garlic and ginger \n3  add all spices  cook 1 min \n4  stir in tomato pur e  cook 2 min \n5  return lamb  add yogurt  mix well \n6  add 200ml water  simmer covered 1 5 hours until tender \n7  uncover  reduce sauce  season to taste  ",
+    "url": "recipes/rogan-josh.html"
+  },
+  {
+    "slug": "scones",
+    "title": "Scones",
+    "tags": [
+      "dessert",
+      "baking",
+      "british"
+    ],
+    "content": "\n  scones\n   ingredients\n  350g self raising flour  or gf flour blend   2 tsp baking powder \n  85g butter  cubed\n  3 tbsp caster sugar\n  175ml milk\n  1 tsp vanilla extract\n  1 egg  beaten  for glazing \n   instructions\n1  rub butter into flour until breadcrumb texture \n2  stir in sugar  then milk and vanilla to form dough \n3  roll out to 2cm thickness  cut into rounds \n4  brush with beaten egg  bake 220 c 12 15 min \n5  cool slightly  serve with jam and cream  ",
+    "url": "recipes/scones.html"
+  },
+  {
+    "slug": "shepherds-pie",
+    "title": "Shepherd's Pie",
+    "tags": [
+      "main",
+      "british",
+      "comfort"
+    ],
+    "content": "\n  shepherd s pie\n   ingredients\n  500g lamb mince\n  1 onion  diced\n  2 carrots  diced\n  2 tbsp tomato pur e\n  300ml beef stock\n  1 tbsp worcestershire sauce\n  1kg potatoes  peeled and cubed\n  50g butter\n  100ml milk\n  salt and pepper\n   instructions\n1  brown lamb mince in large pan  remove excess fat \n2  add onion and carrots  cook 5 min until softened \n3  add tomato pur e  stock  and worcestershire sauce \n4  simmer 20 min until thickened  season well \n5  boil potatoes until tender  drain and mash with butter and milk \n6  transfer meat to ovenproof dish  top with mashed potato \n7  bake 200 c 25 30 min until golden and bubbling  ",
+    "url": "recipes/shepherds-pie.html"
+  },
+  {
+    "slug": "sourdough-bread",
+    "title": "Sourdough Bread",
+    "tags": [
+      "bread",
+      "baking"
+    ],
+    "content": "\n  sourdough bread\n   ingredients\n  500g strong bread flour  or gf flour blend   1 tsp xanthan gum \n  350ml water\n  100g active sourdough starter\n  10g salt\n   instructions\n1  mix flour and water  let rest 30 min  autolyse  \n2  add starter and salt  knead 10 min \n3  stretch and fold every 30 min for 3 hours \n4  shape and place in banneton \n5  cold proof 12 18 hours in fridge \n6  bake 250 c 20 min with steam  then 220 c 25 min \n",
+    "url": "recipes/sourdough-bread.html"
+  },
+  {
     "slug": "spaghetti-bolognese",
     "title": "Spaghetti Bolognese",
     "tags": [
@@ -81,6 +291,28 @@
     "url": "recipes/spaghetti-bolognese.html"
   },
   {
+    "slug": "spanish-tortilla",
+    "title": "Spanish Tortilla",
+    "tags": [
+      "main",
+      "spanish",
+      "egg"
+    ],
+    "content": "\n  spanish tortilla\n   ingredients\n  6 eggs\n  500g potatoes  thinly sliced\n  1 onion  thinly sliced\n  100ml olive oil\n  salt\n   instructions\n1  fry potatoes and onion in oil on low heat until soft  not browned \n2  beat eggs with salt  add potatoes and onion  mix gently \n3  pour mixture into nonstick pan  cook on low until mostly set \n4  flip tortilla  use a plate   cook other side 2 3 min \n5  cool slightly  slice and serve  ",
+    "url": "recipes/spanish-tortilla.html"
+  },
+  {
+    "slug": "thai-curry",
+    "title": "Thai Curry",
+    "tags": [
+      "main",
+      "thai",
+      "spicy"
+    ],
+    "content": "\n  thai curry\n   ingredients\n  500g chicken breast  sliced\n  2 tbsp red curry paste\n  400ml coconut milk\n  2 tbsp fish sauce\n  1 tbsp palm sugar\n  2 aubergines  cubed\n  1 red pepper  sliced\n  thai basil\n  jasmine rice\n   instructions\n1  fry curry paste in oil until fragrant \n2  add coconut milk  fish sauce  and palm sugar \n3  add chicken  simmer 10 min \n4  add vegetables  cook 5 min until tender \n5  garnish with thai basil  serve with rice  ",
+    "url": "recipes/thai-curry.html"
+  },
+  {
     "slug": "tomato-soup",
     "title": "Tomato Soup",
     "tags": [
@@ -88,5 +320,27 @@
     ],
     "content": "\n  tomato soup\n   ingredients\n  2 tbsp olive oil  \n  1 onion  diced  \n  2 cloves garlic  minced  \n  800 g canned tomatoes  \n  500 ml vegetable stock  \n  salt   pepper  \n   instructions\n1  saut  onion   garlic   \n2  add tomatoes   stock  simmer 15 min   \n3  blend smooth  season \n\n",
     "url": "recipes/tomato-soup.html"
+  },
+  {
+    "slug": "vanilla-biscuits",
+    "title": "Vanilla Biscuits",
+    "tags": [
+      "dessert",
+      "baking",
+      "british"
+    ],
+    "content": "\n  vanilla biscuits\n   ingredients\n  250g butter  softened\n  140g caster sugar\n  1 egg yolk\n  2 tsp vanilla extract\n  300g plain flour  or gf flour blend \n  1 tsp baking powder\n   instructions\n1  cream butter and sugar until light and fluffy \n2  beat in egg yolk and vanilla \n3  mix in flour and baking powder to form dough \n4  roll out to 5mm thickness and cut into shapes \n5  bake 180 c 12 15 min until golden \n6  cool on wire rack  ",
+    "url": "recipes/vanilla-biscuits.html"
+  },
+  {
+    "slug": "victoria-sponge",
+    "title": "Victoria Sponge Cake",
+    "tags": [
+      "dessert",
+      "baking",
+      "british"
+    ],
+    "content": "\n  victoria sponge cake\n   ingredients\n  200g butter  softened\n  200g caster sugar\n  4 eggs\n  200g self raising flour  or gf flour blend   2 tsp baking powder \n  1 tsp vanilla extract\n  3 tbsp milk\n  200ml double cream\n  4 tbsp strawberry jam\n  icing sugar for dusting\n   instructions\n1  cream butter and sugar until light and fluffy \n2  beat in eggs one at a time  then vanilla \n3  fold in flour and milk alternately \n4  divide between two 20cm greased tins \n5  bake 180 c 20 22 min until golden and a cocktail stick comes out clean \n6  cool completely  then sandwich with jam and cream \n7  dust with icing sugar \n   links\n   bbc good food  victoria sponge  https   www bbcgoodfood com recipes classic victoria sandwich recipe ",
+    "url": "recipes/victoria-sponge.html"
   }
 ]

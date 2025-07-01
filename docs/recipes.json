@@ -7,10 +7,47 @@
     ]
   },
   {
+    "slug": "beef-bourguignon",
+    "title": "Beef Bourguignon",
+    "tags": [
+      "main",
+      "french",
+      "stew"
+    ]
+  },
+  {
+    "slug": "british-curry",
+    "title": "British-style Chicken Curry",
+    "tags": [
+      "main",
+      "indian",
+      "spicy"
+    ]
+  },
+  {
     "slug": "caesar-salad",
     "title": "Caesar Salad",
     "tags": [
       "salad"
+    ]
+  },
+  {
+    "slug": "chana-masala",
+    "title": "Chana Masala",
+    "tags": [
+      "main",
+      "indian",
+      "lentil",
+      "vegetarian"
+    ]
+  },
+  {
+    "slug": "chicken-tikka-masala",
+    "title": "Chicken Tikka Masala",
+    "tags": [
+      "main",
+      "indian",
+      "curry"
     ]
   },
   {
@@ -28,6 +65,34 @@
     ]
   },
   {
+    "slug": "cottage-pie",
+    "title": "Cottage Pie",
+    "tags": [
+      "main",
+      "british",
+      "comfort"
+    ]
+  },
+  {
+    "slug": "dal-tadka",
+    "title": "Dal Tadka",
+    "tags": [
+      "main",
+      "indian",
+      "lentil",
+      "vegetarian"
+    ]
+  },
+  {
+    "slug": "fish-chips",
+    "title": "Fish and Chips",
+    "tags": [
+      "main",
+      "british",
+      "seafood"
+    ]
+  },
+  {
     "slug": "french-toast",
     "title": "French Toast",
     "tags": [
@@ -42,10 +107,64 @@
     ]
   },
   {
+    "slug": "greek-moussaka",
+    "title": "Greek Moussaka",
+    "tags": [
+      "main",
+      "greek",
+      "bake"
+    ]
+  },
+  {
+    "slug": "green-curry",
+    "title": "Thai Green Curry",
+    "tags": [
+      "main",
+      "thai",
+      "curry"
+    ]
+  },
+  {
     "slug": "grilled-cheese",
     "title": "Grilled Cheese",
     "tags": [
       "lunch"
+    ]
+  },
+  {
+    "slug": "instant-pot-baked-potatoes",
+    "title": "Instant Pot Baked Potatoes",
+    "tags": [
+      "side",
+      "vegetarian",
+      "quick"
+    ]
+  },
+  {
+    "slug": "jalfrezi",
+    "title": "Chicken Jalfrezi",
+    "tags": [
+      "main",
+      "indian",
+      "curry"
+    ]
+  },
+  {
+    "slug": "korma",
+    "title": "Chicken Korma",
+    "tags": [
+      "main",
+      "indian",
+      "curry"
+    ]
+  },
+  {
+    "slug": "nehari",
+    "title": "Nehari",
+    "tags": [
+      "main",
+      "pakistani",
+      "stew"
     ]
   },
   {
@@ -56,6 +175,59 @@
     ]
   },
   {
+    "slug": "ratatouille",
+    "title": "Ratatouille",
+    "tags": [
+      "main",
+      "french",
+      "vegetarian"
+    ]
+  },
+  {
+    "slug": "red-curry",
+    "title": "Thai Red Curry",
+    "tags": [
+      "main",
+      "thai",
+      "curry"
+    ]
+  },
+  {
+    "slug": "rogan-josh",
+    "title": "Rogan Josh",
+    "tags": [
+      "main",
+      "indian",
+      "curry"
+    ]
+  },
+  {
+    "slug": "scones",
+    "title": "Scones",
+    "tags": [
+      "dessert",
+      "baking",
+      "british"
+    ]
+  },
+  {
+    "slug": "shepherds-pie",
+    "title": "Shepherd's Pie",
+    "tags": [
+      "main",
+      "british",
+      "comfort"
+    ]
+  },
+  {
+    "slug": "sourdough-bread",
+    "title": "Sourdough Bread",
+    "tags": [
+      "bread",
+      "baking"
+    ]
+  },
+  {
     "slug": "spaghetti-bolognese",
     "title": "Spaghetti Bolognese",
     "tags": [
@@ -63,10 +235,46 @@
     ]
   },
   {
+    "slug": "spanish-tortilla",
+    "title": "Spanish Tortilla",
+    "tags": [
+      "main",
+      "spanish",
+      "egg"
+    ]
+  },
+  {
+    "slug": "thai-curry",
+    "title": "Thai Curry",
+    "tags": [
+      "main",
+      "thai",
+      "spicy"
+    ]
+  },
+  {
     "slug": "tomato-soup",
     "title": "Tomato Soup",
     "tags": [
       "soup"
+    ]
+  },
+  {
+    "slug": "vanilla-biscuits",
+    "title": "Vanilla Biscuits",
+    "tags": [
+      "dessert",
+      "baking",
+      "british"
+    ]
+  },
+  {
+    "slug": "victoria-sponge",
+    "title": "Victoria Sponge Cake",
+    "tags": [
+      "dessert",
+      "baking",
+      "british"
     ]
   }
 ]

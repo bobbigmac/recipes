@@ -108,6 +108,24 @@ for (const file of readdirSync(srcDir)) {
     htmlBody = md.render(cleanedContent);
   }
   const title = data.title || slug;
+  
+  // Add DuckDuckGo links if no links section exists
+  const hasLinksSection = sections.some(section => 
+    section.trim().toLowerCase().includes('link')
+  );
+  
+  if (!hasLinksSection && sections.length > 1) {
+    const searchQuery = encodeURIComponent(title);
+    htmlBody += `
+      <div class="links-section">
+        <h2>Related Links</h2>
+        <ul>
+          <li><a href="https://duckduckgo.com/?q=${searchQuery}+recipe" target="_blank" rel="noopener">Search for ${title} recipes</a></li>
+          <li><a href="https://duckduckgo.com/?q=${searchQuery}+recipe&iax=images&ia=images" target="_blank" rel="noopener">Images of ${title}</a></li>
+        </ul>
+      </div>
+    `;
+  }
 
   const fullHtml = `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>${title}</title><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="../style.css"></head><body><header><h1><a href="/">Recipes</a></h1><input type="search" id="filter" placeholder="Filter recipes…"/></header><aside id="list"></aside><main id="content">${htmlBody}</main><script type="module" src="../app.js"></script></body></html>`;
   writeFileSync(join(outRecipeDir, `${slug}.html`), fullHtml);
@@ -148,5 +166,6 @@ copyFileSync('src/index.html', join(outDir, 'index.html'));
 copyFileSync('src/style.css', join(outDir, 'style.css'));
 copyFileSync('src/app.js', join(outDir, 'app.js'));
 copyFileSync('src/search.js', join(outDir, 'search.js'));
+copyFileSync('src/share.js', join(outDir, 'share.js'));
 
 console.log('Build complete. Recipes:', list.length);
