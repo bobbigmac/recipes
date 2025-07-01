@@ -13,7 +13,7 @@ Quick pointers so you can ship pain‑free:
 * **GitHub Pages settings**
 
   * In the repo’s *Settings → Pages*, pick “Deploy from a GitHub Actions workflow.”
-  * (Optional) Add a `CNAME` file in `/dist` or use the UI for a custom domain.
+  * (Optional) Add a `CNAME` file in `/docs` or use the UI for a custom domain.
 
 * **Adding recipes**
 
