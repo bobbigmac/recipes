@@ -391,6 +391,17 @@
     "url": "./korma.html"
   },
   {
+    "slug": "lamb-nihari",
+    "title": "Lamb Nihari",
+    "tags": [
+      "main",
+      "pakistani",
+      "stew"
+    ],
+    "content": "\r\n  lamb nihari\r   ingredients\r  1kg lamb shank  cubed  or beef \r  2 onions  sliced\r  4 cloves garlic  minced\r  1 tbsp ginger  grated\r  2 tbsp ghee or oil\r  2 tsp ground coriander\r  2 tsp ground cumin\r  1 tsp turmeric\r  1 tsp chili powder\r  1 tsp garam masala\r  1 tsp ground cardamom\r  1 tsp ground cinnamon\r  1 tsp ground cloves\r  2 tbsp flour\r  1 tbsp ginger julienne\r  1 tbsp coriander leaves\r  1 lemon  sliced\r  salt\r   instructions\r1  brown lamb mutton in ghee  set aside \r2  fry onions until golden  add garlic and ginger \r3  add all spices  cook 1 min \r4  return lamb  add 1l water  simmer covered 2 3 hours until tender \r5  mix flour with 2 tbsp water  stir into stew to thicken \r6  simmer 10 min  garnish with ginger  coriander  and lemon \r7  serve with naan or rice  ",
+    "url": "./lamb-nihari.html"
+  },
+  {
     "slug": "milk-blancmange",
     "title": "Milk Blancmange",
     "tags": [
@@ -411,17 +422,6 @@
     ],
     "content": "\r\n  mince pies\r   ingredients\r  500g shortcrust pastry\r  400g mincemeat\r  1 egg  beaten\r  icing sugar\r   instructions\r1  roll pastry  cut circles for bases and lids \r2  line muffin tin with pastry bases \r3  fill with mincemeat \r4  cover with pastry lids  make small hole \r5  brush with beaten egg \r6  bake 200 c 15 20 minutes until golden \r7  dust with icing sugar when cool  ",
     "url": "./mince-pies.html"
-  },
-  {
-    "slug": "nehari",
-    "title": "Nehari",
-    "tags": [
-      "main",
-      "pakistani",
-      "stew"
-    ],
-    "content": "\r\n  nehari\r   ingredients\r  1kg beef shank  cubed\r  2 onions  sliced\r  4 cloves garlic  minced\r  1 tbsp ginger  grated\r  2 tbsp ghee or oil\r  2 tsp ground coriander\r  2 tsp ground cumin\r  1 tsp turmeric\r  1 tsp chili powder\r  1 tsp garam masala\r  1 tsp ground cardamom\r  1 tsp ground cinnamon\r  1 tsp ground cloves\r  2 tbsp wheat flour\r  1 tbsp ginger julienne\r  1 tbsp coriander leaves\r  1 lemon  sliced\r  salt\r   instructions\r1  brown beef in ghee  set aside \r2  fry onions until golden  add garlic and ginger \r3  add all spices  cook 1 min \r4  return beef  add 1l water  simmer covered 2 3 hours until tender \r5  mix flour with 2 tbsp water  stir into stew to thicken \r6  simmer 10 min  garnish with ginger  coriander  and lemon \r7  serve with naan or rice  ",
-    "url": "./nehari.html"
   },
   {
     "slug": "omelette",
@@ -643,7 +643,7 @@
       "baking",
       "british"
     ],
-    "content": "\r\n  victoria sponge cake\r   ingredients\r  200g butter  softened\r  200g caster sugar\r  4 eggs\r  200g self raising flour  or gf flour blend   2 tsp baking powder \r  1 tsp vanilla extract\r  3 tbsp milk\r  200ml double cream\r  4 tbsp strawberry jam\r  icing sugar for dusting\r   instructions\r1  cream butter and sugar until light and fluffy \r2  beat in eggs one at a time  then vanilla \r3  fold in flour and milk alternately \r4  divide between two 20cm greased tins \r5  bake 180 c 20 22 min until golden and a cocktail stick comes out clean \r6  cool completely  then sandwich with jam and cream \r7  dust with icing sugar \r   links\r   bbc good food  victoria sponge  https   www bbcgoodfood com recipes classic victoria sandwich recipe ",
+    "content": "\r\n  victoria sponge cake\r   ingredients\r  200g butter  softened\r  200g caster sugar\r  4 eggs\r  200g self raising flour  or gf flour blend   2 tsp baking powder \r  1 tsp vanilla extract\r  3 tbsp milk\r  200ml double cream\r  4 tbsp strawberry jam\r  icing sugar for dusting\r   instructions\r1  cream butter and sugar until light and fluffy \r2  beat eggs to light in a separate bowl  don t get oil fat in it  \r3  fold in eggs  then flour adding milk as needed to keep it light \r4  divide between two greased tins \r5  bake 180 c 18 22 min  by the thin thickness of your fill  until golden and a cocktail stick comes out clean \r6  cool completely  then sandwich with jam and cream \r7  dust with icing sugar \r   links\r   bbc good food  victoria sponge  https   www bbcgoodfood com recipes classic victoria sandwich recipe ",
     "url": "./victoria-sponge.html"
   },
   {

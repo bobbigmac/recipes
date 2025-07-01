@@ -317,6 +317,15 @@
     ]
   },
   {
+    "slug": "lamb-nihari",
+    "title": "Lamb Nihari",
+    "tags": [
+      "main",
+      "pakistani",
+      "stew"
+    ]
+  },
+  {
     "slug": "milk-blancmange",
     "title": "Milk Blancmange",
     "tags": [
@@ -332,15 +341,6 @@
       "dessert",
       "british",
       "christmas"
-    ]
-  },
-  {
-    "slug": "nehari",
-    "title": "Nehari",
-    "tags": [
-      "main",
-      "pakistani",
-      "stew"
     ]
   },
   {
