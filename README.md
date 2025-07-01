@@ -44,7 +44,7 @@ Push to main → GitHub Action builds and deploys automatically.
 - **Print Styles**: CSS for recipe printing
 - **Recipe Scaling**: Adjust ingredient quantities **GOOD**
 - **Unit Conversion**: Metric/imperial toggle
-- **Recipe Sharing**: Social media sharing buttons
+- **Favourite Recipes**: Faves, localstorage
 
 ### Content Expansion
 - **Seasonal Content**: Holiday and seasonal recipe collections
