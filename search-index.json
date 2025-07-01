@@ -391,6 +391,17 @@
     "url": "./korma.html"
   },
   {
+    "slug": "lamb-nihari",
+    "title": "Lamb Nihari",
+    "tags": [
+      "main",
+      "pakistani",
+      "stew"
+    ],
+    "content": "\n  lamb nihari\n   ingredients\n  1kg lamb shank  cubed  or beef \n  2 onions  sliced\n  4 cloves garlic  minced\n  1 tbsp ginger  grated\n  2 tbsp ghee or oil\n  2 tsp ground coriander\n  2 tsp ground cumin\n  1 tsp turmeric\n  1 tsp chili powder\n  1 tsp garam masala\n  1 tsp ground cardamom\n  1 tsp ground cinnamon\n  1 tsp ground cloves\n  2 tbsp flour\n  1 tbsp ginger julienne\n  1 tbsp coriander leaves\n  1 lemon  sliced\n  salt\n   instructions\n1  brown lamb mutton in ghee  set aside \n2  fry onions until golden  add garlic and ginger \n3  add all spices  cook 1 min \n4  return lamb  add 1l water  simmer covered 2 3 hours until tender \n5  mix flour with 2 tbsp water  stir into stew to thicken \n6  simmer 10 min  garnish with ginger  coriander  and lemon \n7  serve with naan or rice  ",
+    "url": "./lamb-nihari.html"
+  },
+  {
     "slug": "milk-blancmange",
     "title": "Milk Blancmange",
     "tags": [
@@ -411,17 +422,6 @@
     ],
     "content": "\n  mince pies\n   ingredients\n  500g shortcrust pastry\n  400g mincemeat\n  1 egg  beaten\n  icing sugar\n   instructions\n1  roll pastry  cut circles for bases and lids \n2  line muffin tin with pastry bases \n3  fill with mincemeat \n4  cover with pastry lids  make small hole \n5  brush with beaten egg \n6  bake 200 c 15 20 minutes until golden \n7  dust with icing sugar when cool  ",
     "url": "./mince-pies.html"
-  },
-  {
-    "slug": "nehari",
-    "title": "Nehari",
-    "tags": [
-      "main",
-      "pakistani",
-      "stew"
-    ],
-    "content": "\n  nehari\n   ingredients\n  1kg beef shank  cubed\n  2 onions  sliced\n  4 cloves garlic  minced\n  1 tbsp ginger  grated\n  2 tbsp ghee or oil\n  2 tsp ground coriander\n  2 tsp ground cumin\n  1 tsp turmeric\n  1 tsp chili powder\n  1 tsp garam masala\n  1 tsp ground cardamom\n  1 tsp ground cinnamon\n  1 tsp ground cloves\n  2 tbsp wheat flour\n  1 tbsp ginger julienne\n  1 tbsp coriander leaves\n  1 lemon  sliced\n  salt\n   instructions\n1  brown beef in ghee  set aside \n2  fry onions until golden  add garlic and ginger \n3  add all spices  cook 1 min \n4  return beef  add 1l water  simmer covered 2 3 hours until tender \n5  mix flour with 2 tbsp water  stir into stew to thicken \n6  simmer 10 min  garnish with ginger  coriander  and lemon \n7  serve with naan or rice  ",
-    "url": "./nehari.html"
   },
   {
     "slug": "omelette",
