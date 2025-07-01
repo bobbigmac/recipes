@@ -1,22 +1,10 @@
 // Search functionality module
 let searchIndex = [];
 
-// Get base path for the site
-function getBasePath() {
-  const path = window.location.pathname;
-  if (path.includes('/recipes/') && path.endsWith('.html')) {
-    // We're on a recipe page like /recipes/banana-bread.html, base is one level up
-    return '../';
-  } else {
-    // We're on the index page like /recipes/ or /recipes/index.html
-    return './';
-  }
-}
-
 // Load search index
 export async function loadSearchIndex() {
   try {
-    const basePath = getBasePath();
+    const basePath = window.SITE_CONFIG?.basePath || './';
     const response = await fetch(`${basePath}search-index.json`);
     searchIndex = await response.json();
   } catch (error) {
@@ -98,7 +86,7 @@ export function initNavigation() {
 function navigateToRecipe(slug) {
   const currentPath = window.location.pathname;
   const isOnRecipePage = currentPath.includes('/recipes/');
-  const basePath = getBasePath();
+  const basePath = window.SITE_CONFIG?.basePath || './';
   
   if (isOnRecipePage) {
     // Update URL and load content
