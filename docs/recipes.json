@@ -58,6 +58,14 @@
     ]
   },
   {
+    "slug": "choux-pastry",
+    "title": "Choux Pastry",
+    "tags": [
+      "pastry",
+      "dessert"
+    ]
+  },
+  {
     "slug": "classic-pancakes",
     "title": "Classic Pancakes",
     "tags": [
@@ -84,6 +92,15 @@
     ]
   },
   {
+    "slug": "filo-pastry",
+    "title": "Filo Pastry",
+    "tags": [
+      "pastry",
+      "dessert",
+      "savory"
+    ]
+  },
+  {
     "slug": "fish-chips",
     "title": "Fish and Chips",
     "tags": [
@@ -104,6 +121,15 @@
     "title": "Fried Rice",
     "tags": [
       "dinner"
+    ]
+  },
+  {
+    "slug": "gluten-free-pizza-dough",
+    "title": "Gluten-Free Pizza Dough",
+    "tags": [
+      "bread",
+      "gluten-free",
+      "pizza"
     ]
   },
   {
@@ -175,6 +201,15 @@
     ]
   },
   {
+    "slug": "puff-pastry",
+    "title": "Puff Pastry",
+    "tags": [
+      "pastry",
+      "dessert",
+      "savory"
+    ]
+  },
+  {
     "slug": "ratatouille",
     "title": "Ratatouille",
     "tags": [
@@ -217,6 +252,15 @@
       "main",
       "british",
       "comfort"
+    ]
+  },
+  {
+    "slug": "shortcrust-pastry",
+    "title": "Shortcrust Pastry",
+    "tags": [
+      "pastry",
+      "dessert",
+      "savory"
     ]
   },
   {

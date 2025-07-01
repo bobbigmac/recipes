@@ -72,6 +72,16 @@
     "url": "./chocolate-chip-cookies.html"
   },
   {
+    "slug": "choux-pastry",
+    "title": "Choux Pastry",
+    "tags": [
+      "pastry",
+      "dessert"
+    ],
+    "content": "\n  choux pastry\n   ingredients\n  125ml water\n  125ml milk\n  100g butter\n  1 4 tsp salt\n  150g plain flour\n  4 large eggs\n   instructions\n1  heat water  milk  butter and salt in a pan until butter melts \n2  bring to boil  remove from heat and add flour all at once \n3  beat vigorously until mixture forms a ball and leaves sides of pan \n4  cool slightly  then beat in eggs one at a time \n5  pipe or spoon onto baking tray \n6  bake at 200 c  400 f  for 20 25 minutes until golden and crisp \n",
+    "url": "./choux-pastry.html"
+  },
+  {
     "slug": "classic-pancakes",
     "title": "Classic Pancakes",
     "tags": [
@@ -104,6 +114,17 @@
     "url": "./dal-tadka.html"
   },
   {
+    "slug": "filo-pastry",
+    "title": "Filo Pastry",
+    "tags": [
+      "pastry",
+      "dessert",
+      "savory"
+    ],
+    "content": "\n  filo pastry\n   ingredients\n  300g strong bread flour\n  1 2 tsp salt\n  1 tbsp olive oil\n  150ml warm water\n   instructions\n1  mix flour and salt in a large bowl \n2  add oil and gradually mix in warm water to form a soft dough \n3  knead for 10 minutes until smooth and elastic \n4  divide into 8 10 pieces  cover with damp cloth \n5  roll each piece very thinly on a floured surface \n6  stack sheets with oil or melted butter between layers \n7  use immediately or freeze between parchment paper \n",
+    "url": "./filo-pastry.html"
+  },
+  {
     "slug": "fish-chips",
     "title": "Fish and Chips",
     "tags": [
@@ -131,6 +152,17 @@
     ],
     "content": "\n  fried rice\n   ingredients\n  2 cups cooked rice  cold   \n  1 tbsp oil  \n  1 egg  beaten  \n  1 cup mixed veggies  \n  2 tbsp soy sauce  \n   instructions\n1  scramble egg  set aside   \n2  stir fry veggies  add rice  soy sauce  egg   \n3  heat through  serve hot \n\n",
     "url": "./fried-rice.html"
+  },
+  {
+    "slug": "gluten-free-pizza-dough",
+    "title": "Gluten-Free Pizza Dough",
+    "tags": [
+      "bread",
+      "gluten-free",
+      "pizza"
+    ],
+    "content": "\n  gluten free pizza dough\n   ingredients\n  1 cup greek yoghurt  full fat preferred \n  1 cup gluten free flour blend\n  1 2 tsp salt\n  1 2 tsp baking powder  optional  for extra lift \n   instructions\n1  in a large bowl  combine yoghurt and gluten free flour blend \n2  mix well with a wooden spoon or your hands until a dough forms \n3  do not overwork the dough   just combine until no dry flour remains \n4  cover the bowl with cling film and refrigerate for 1 hour \n5  roll out on a lightly floured surface  use more gf flour for dusting  \n8  add toppings and bake at 220 c  425 f  for 12 15 minutes until golden \n",
+    "url": "./gluten-free-pizza-dough.html"
   },
   {
     "slug": "greek-moussaka",
@@ -217,6 +249,17 @@
     "url": "./omelette.html"
   },
   {
+    "slug": "puff-pastry",
+    "title": "Puff Pastry",
+    "tags": [
+      "pastry",
+      "dessert",
+      "savory"
+    ],
+    "content": "\n  puff pastry\n   ingredients\n  250g strong bread flour\n  1 2 tsp salt\n  250g cold butter\n  150ml cold water\n   instructions\n1  mix flour and salt  add 50g butter and rub in \n2  gradually add water to form a soft dough \n3  knead briefly  wrap and chill for 30 minutes \n4  roll out to a rectangle  place remaining butter in centre \n6  roll out and fold in thirds  like a letter  \n7  chill for 30 minutes  repeat folding process 5 more times \n8  chill for final 30 minutes before use \n",
+    "url": "./puff-pastry.html"
+  },
+  {
     "slug": "ratatouille",
     "title": "Ratatouille",
     "tags": [
@@ -270,6 +313,17 @@
     ],
     "content": "\n  shepherd s pie\n   ingredients\n  500g lamb mince\n  1 onion  diced\n  2 carrots  diced\n  2 tbsp tomato pur e\n  300ml beef stock\n  1 tbsp worcestershire sauce\n  1kg potatoes  peeled and cubed\n  50g butter\n  100ml milk\n  salt and pepper\n   instructions\n1  brown lamb mince in large pan  remove excess fat \n2  add onion and carrots  cook 5 min until softened \n3  add tomato pur e  stock  and worcestershire sauce \n4  simmer 20 min until thickened  season well \n5  boil potatoes until tender  drain and mash with butter and milk \n6  transfer meat to ovenproof dish  top with mashed potato \n7  bake 200 c 25 30 min until golden and bubbling  ",
     "url": "./shepherds-pie.html"
+  },
+  {
+    "slug": "shortcrust-pastry",
+    "title": "Shortcrust Pastry",
+    "tags": [
+      "pastry",
+      "dessert",
+      "savory"
+    ],
+    "content": "\n  shortcrust pastry\n   ingredients\n  250g plain flour\n  125g cold butter  cubed\n  1 4 tsp salt\n  2 3 tbsp cold water\n   instructions\n1  sift flour and salt into a large bowl \n2  add cold butter and rub in with fingertips until mixture resembles breadcrumbs \n3  gradually add cold water  mixing with a knife until dough just comes together \n4  wrap in cling film and chill for 30 minutes \n5  roll out on a lightly floured surface to desired thickness \n6  use for pies  tarts  or quiches ",
+    "url": "./shortcrust-pastry.html"
   },
   {
     "slug": "sourdough-bread",
