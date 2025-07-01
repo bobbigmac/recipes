@@ -4,7 +4,12 @@ let searchIndex = [];
 // Load search index
 export async function loadSearchIndex() {
   try {
-    const response = await fetch('/search-index.json');
+    // Get the base path for the site (handles subfolder deployment)
+    const basePath = window.location.pathname.includes('/recipes/') 
+      ? window.location.pathname.split('/recipes/')[0] 
+      : '';
+    
+    const response = await fetch(`${basePath}/search-index.json`);
     searchIndex = await response.json();
   } catch (error) {
     console.error('Failed to load search index:', error);
@@ -85,14 +90,17 @@ export function initNavigation() {
 function navigateToRecipe(slug) {
   const currentPath = window.location.pathname;
   const isOnRecipePage = currentPath.includes('/recipes/');
+  const basePath = window.location.pathname.includes('/recipes/') 
+    ? window.location.pathname.split('/recipes/')[0] 
+    : '';
   
   if (isOnRecipePage) {
     // Update URL and load content
-    window.history.pushState({ slug }, '', `/recipes/${slug}.html`);
+    window.history.pushState({ slug }, '', `${basePath}/recipes/${slug}.html`);
     loadRecipeContent(slug);
   } else {
     // Navigate to recipe page
-    window.location.href = `/recipes/${slug}.html`;
+    window.location.href = `${basePath}/recipes/${slug}.html`;
   }
 }
 
@@ -102,7 +110,11 @@ async function loadRecipeContent(slug) {
   if (!contentEl) return;
   
   try {
-    const response = await fetch(`/recipes/${slug}.html`);
+    const basePath = window.location.pathname.includes('/recipes/') 
+      ? window.location.pathname.split('/recipes/')[0] 
+      : '';
+    
+    const response = await fetch(`${basePath}/recipes/${slug}.html`);
     const html = await response.text();
     
     // Extract content from the main element
