@@ -85,8 +85,7 @@ export function initNavigation() {
 // Navigate to recipe
 function navigateToRecipe(slug) {
   const currentPath = window.location.pathname;
-  const isOnRecipePage = currentPath.includes('/recipes/');
-  const basePath = window.SITE_CONFIG?.basePath || './';
+  const isOnRecipePage = !currentPath.endsWith('index.html') && !currentPath.endsWith('/');
   
   if (isOnRecipePage) {
     // Update URL and load content
@@ -94,7 +93,7 @@ function navigateToRecipe(slug) {
     loadRecipeContent(slug);
   } else {
     // Navigate to recipe page
-    window.location.href = `${basePath}recipes/${slug}.html`;
+    window.location.href = `${slug}.html`;
   }
 }
 

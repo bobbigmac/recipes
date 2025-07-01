@@ -7,9 +7,8 @@ const md = new MarkdownIt({ html: true });
 
 const srcDir = 'recipes';
 const outDir = 'docs';
-const outRecipeDir = join(outDir, 'recipes');
 
-mkdirSync(outRecipeDir, { recursive: true });
+mkdirSync(outDir, { recursive: true });
 
 // Build recipes and collect meta
 const list = [];
@@ -127,8 +126,8 @@ for (const file of readdirSync(srcDir)) {
     `;
   }
 
-  const fullHtml = `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>${title}</title><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="../style.css"></head><body><header><h1><a href="../">Recipes</a></h1><input type="search" id="filter" placeholder="Filter recipes…"/></header><aside id="list"></aside><main id="content">${htmlBody}</main><script>window.SITE_CONFIG={basePath:'../'};</script><script type="module" src="../app.js"></script></body></html>`;
-  writeFileSync(join(outRecipeDir, `${slug}.html`), fullHtml);
+  const fullHtml = `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>${title}</title><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="style.css"></head><body><header><h1><a href="index.html">Recipes</a></h1><input type="search" id="filter" placeholder="Filter recipes…"/></header><aside id="list"></aside><main id="content">${htmlBody}</main><script>window.SITE_CONFIG={basePath:'./'};</script><script type="module" src="app.js"></script></body></html>`;
+  writeFileSync(join(outDir, `${slug}.html`), fullHtml);
 
   list.push({ slug, title, tags: data.tags || [] });
 }
@@ -155,7 +154,7 @@ const searchIndex = list.map(recipe => {
     title: recipe.title,
     tags: recipe.tags,
     content: cleanContent,
-    url: `./recipes/${recipe.slug}.html`
+    url: `./${recipe.slug}.html`
   };
 });
 
