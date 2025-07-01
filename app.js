@@ -27,7 +27,7 @@ function renderList() {
 }
 
 function loadRecipe(slug) {
-  fetch(\`recipes/\${slug}.html\`)
+  fetch(`recipes/${slug}.html`)
     .then(r => r.text())
     .then(html => {
       const bodyMatch = /<body[^>]*>([\s\S]*)<\/body>/i.exec(html);

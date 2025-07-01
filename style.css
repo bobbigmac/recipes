@@ -3,7 +3,51 @@ body{display:grid;grid-template-rows:auto 1fr;grid-template-columns:250px 1fr;he
 header{grid-column:1/3;padding:1rem;background:#f5f5f5;display:flex;gap:1rem;align-items:center;}
 #filter{flex:1;padding:.5rem;font-size:1rem;}
 aside{overflow-y:auto;padding:1rem;border-right:1px solid #ddd;}
-main{overflow-y:auto;padding:1rem;}
+main{padding:1rem;max-width:800px;margin:0 auto;}
+
+/* Recipe content styling */
+main h1{font-size:2.5rem;margin:0 0 1rem;color:#2c3e50;font-weight:600;border-bottom:3px solid #3498db;padding-bottom:0.5rem;}
+
+/* Two-column layout for recipe content */
+.recipe-content{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-top:2rem;}
+.ingredients-section,.instructions-section{background:#fff;padding:1.5rem;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);}
+
+/* Links section styling */
+.links-section{grid-column:1/-1;background:#fff;padding:1.5rem;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);margin-top:1rem;}
+.links-section h2::before{content:"🔗";}
+.links-section a{color:#3498db;text-decoration:none;font-weight:500;transition:color 0.2s ease;}
+.links-section a:hover{color:#2980b9;text-decoration:underline;}
+
+main h2{font-size:1.8rem;margin:0 0 1rem;color:#34495e;font-weight:500;display:flex;align-items:center;gap:0.5rem;}
+main h2::before{content:"🍽️";font-size:1.2rem;}
+.instructions-section h2::before{content:"📝";}
+main h3{font-size:1.4rem;margin:1.5rem 0 0.5rem;color:#7f8c8d;font-weight:500;}
+
+/* Ingredients styling */
+main ul{list-style:none;padding:0;margin:1rem 0;}
+main li{background:#f8f9fa;margin:0.5rem 0;padding:1rem;border-radius:8px;border-left:4px solid #3498db;font-size:1.1rem;line-height:1.6;transition:all 0.2s ease;}
+main li:hover{background:#e8f4fd;transform:translateX(4px);box-shadow:0 2px 8px rgba(52,152,219,0.1);}
+
+/* Instructions styling */
+main ol{list-style:none;padding:0;margin:1rem 0;counter-reset:step-counter;}
+main ol li{counter-increment:step-counter;background:#fff;margin:1rem 0;padding:1.5rem;border-radius:12px;border:2px solid #ecf0f1;font-size:1.1rem;line-height:1.7;position:relative;box-shadow:0 2px 4px rgba(0,0,0,0.05);}
+main ol li::before{content:counter(step-counter);position:absolute;left:-15px;top:50%;transform:translateY(-50%);background:#3498db;color:white;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:0.9rem;box-shadow:0 2px 4px rgba(52,152,219,0.3);}
+
+/* General typography */
+main p{margin:1rem 0;line-height:1.7;font-size:1.1rem;color:#2c3e50;}
+main strong{color:#e74c3c;font-weight:600;}
+main em{color:#27ae60;font-style:italic;}
+
+/* Responsive adjustments */
+@media(max-width:768px){
+  main{padding:0.5rem;}
+  main h1{font-size:2rem;}
+  main h2{font-size:1.5rem;}
+  main li,main ol li{padding:0.8rem;font-size:1rem;}
+  .recipe-content{grid-template-columns:1fr;gap:1rem;}
+  .ingredients-section,.instructions-section{padding:1rem;}
+}
+
 button.item{display:block;width:100%;text-align:left;border:none;background:none;padding:.5rem 0;cursor:pointer;font-size:1rem;}
 button.item:hover,button.item:focus{background:#eee;}
 @media(max-width:600px){body{grid-template-columns:1fr;}aside{display:none;}body.show-list aside{display:block;position:absolute;top:0;left:0;width:70%;height:100%;background:#fff;z-index:1;}}
