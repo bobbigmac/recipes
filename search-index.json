@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "banana-bread",
+    "title": "Banana Bread",
+    "tags": [
+      "dessert"
+    ],
+    "content": "\n  banana bread\n   ingredients\n  3 ripe bananas  mashed  \n    cup melted butter  \n  1 cup sugar  \n  1 egg  \n  1 tsp vanilla  \n  1 tsp baking soda  \n  1   cups flour  \n   instructions\n1  mix wet ingredients   \n2  fold in dry  pour into loaf tin   \n3  bake 175  c 55 60 min \n   links\n   king arthur s classic banana bread  https   www kingarthurbaking com recipes classic banana bread recipe \n   serious eats  the food lab s banana bread  https   www seriouseats com food lab banana bread recipe \n   america s test kitchen banana bread  https   www americastestkitchen com recipes 11651 banana bread \n\n",
+    "url": "recipes/banana-bread.html"
+  },
+  {
+    "slug": "caesar-salad",
+    "title": "Caesar Salad",
+    "tags": [
+      "salad"
+    ],
+    "content": "\n  caesar salad\n   ingredients\n  1 romaine heart  chopped  \n    cup grated parmesan  \n  croutons  \n  caesar dressing  \n   instructions\n1  toss lettuce with dressing   \n2  top with croutons   parmesan  serve \n\n",
+    "url": "recipes/caesar-salad.html"
+  },
+  {
+    "slug": "chocolate-chip-cookies",
+    "title": "Chocolate Chip Cookies",
+    "tags": [
+      "dessert"
+    ],
+    "content": "\n  chocolate chip cookies\n   ingredients\n  1 cup butter  softened  \n  1 cup sugar  \n  1 cup brown sugar  \n  2 eggs  \n  3 cups flour  \n  1 tsp baking soda  \n  2 cups chocolate chips  \n   instructions\n1  cream butter   sugars  beat in eggs   \n2  stir in dry ingredients  fold chips   \n3  scoop onto tray  bake 180  c 10 12 min \n   links\n   nyt s best chocolate chip cookies  https   cooking nytimes com recipes 1015819 chocolate chip cookies \n   serious eats  the best chocolate chip cookies  https   www seriouseats com best chocolate chip cookies recipe \n   sally s baking addiction  chewy chocolate chip cookies  https   sallysbakingaddiction com chewy chocolate chip cookies  \n\n",
+    "url": "recipes/chocolate-chip-cookies.html"
+  },
+  {
+    "slug": "classic-pancakes",
+    "title": "Classic Pancakes",
+    "tags": [
+      "breakfast"
+    ],
+    "content": "\n  classic pancakes\n   ingredients\n  1 cup all purpose flour  \n  2 tbsp sugar  \n  1 tsp baking powder  \n    tsp salt  \n  1 cup milk  \n  1 large egg  \n  2 tbsp melted butter  \n   instructions\n1  whisk dry ingredients   \n2  stir in wet ingredients until just combined   \n3  pour   cup portions on a hot greased griddle and cook until bubbles form  flip and cook until golden \n\n",
+    "url": "recipes/classic-pancakes.html"
+  },
+  {
+    "slug": "french-toast",
+    "title": "French Toast",
+    "tags": [
+      "breakfast"
+    ],
+    "content": "\n  french toast\n   ingredients\n  2 slices bread  \n  1 egg  \n    cup milk  \n  pinch cinnamon  \n  butter for frying  \n   instructions\n1  whisk egg  milk  cinnamon   \n2  dip bread  fry both sides in butter until golden \n\n",
+    "url": "recipes/french-toast.html"
+  },
+  {
+    "slug": "fried-rice",
+    "title": "Fried Rice",
+    "tags": [
+      "dinner"
+    ],
+    "content": "\n  fried rice\n   ingredients\n  2 cups cooked rice  cold   \n  1 tbsp oil  \n  1 egg  beaten  \n  1 cup mixed veggies  \n  2 tbsp soy sauce  \n   instructions\n1  scramble egg  set aside   \n2  stir fry veggies  add rice  soy sauce  egg   \n3  heat through  serve hot \n\n",
+    "url": "recipes/fried-rice.html"
+  },
+  {
+    "slug": "grilled-cheese",
+    "title": "Grilled Cheese",
+    "tags": [
+      "lunch"
+    ],
+    "content": "\n  grilled cheese\n   ingredients\n  2 slices bread  \n  2 slices cheddar  \n  1 tbsp butter  \n   instructions\n1  butter bread outsides   \n2  sandwich cheese inside   \n3  grill in pan until golden both sides \n\n",
+    "url": "recipes/grilled-cheese.html"
+  },
+  {
+    "slug": "omelette",
+    "title": "Simple Omelette",
+    "tags": [
+      "breakfast"
+    ],
+    "content": "\n  simple omelette\n   ingredients\n  2 eggs  \n  pinch of salt  \n  1 tbsp butter  \n   instructions\n1  beat eggs with salt   \n2  melt butter in non stick pan   \n3  pour eggs  cook gently  fold and serve \n\n",
+    "url": "recipes/omelette.html"
+  },
+  {
+    "slug": "spaghetti-bolognese",
+    "title": "Spaghetti Bolognese",
+    "tags": [
+      "dinner"
+    ],
+    "content": "\n  spaghetti bolognese\n   ingredients\n  400 g spaghetti  \n  2 tbsp olive oil  \n  1 onion  diced  \n  2 cloves garlic  minced  \n  500 g minced beef  \n  400 g canned tomatoes  \n  salt   pepper  \n   instructions\n1  saut  onion and garlic in oil   \n2  brown beef  season   \n3  add tomatoes  simmer 20 min   \n4  cook pasta  toss with sauce \n\n",
+    "url": "recipes/spaghetti-bolognese.html"
+  },
+  {
+    "slug": "tomato-soup",
+    "title": "Tomato Soup",
+    "tags": [
+      "soup"
+    ],
+    "content": "\n  tomato soup\n   ingredients\n  2 tbsp olive oil  \n  1 onion  diced  \n  2 cloves garlic  minced  \n  800 g canned tomatoes  \n  500 ml vegetable stock  \n  salt   pepper  \n   instructions\n1  saut  onion   garlic   \n2  add tomatoes   stock  simmer 15 min   \n3  blend smooth  season \n\n",
+    "url": "recipes/tomato-soup.html"
+  }
+]
