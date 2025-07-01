@@ -20,7 +20,7 @@ export function initShare() {
 
   shareButton.addEventListener('click', async () => {
     const url = window.location.href;
-    const title = document.title.replace(' - Recipes', '').replace(' | Recipes', '');
+    const title = document.title;
     
     if (navigator.share) {
       // Use native Web Share API
