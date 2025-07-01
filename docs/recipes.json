@@ -171,6 +171,15 @@
     ]
   },
   {
+    "slug": "english-breakfast",
+    "title": "English Breakfast",
+    "tags": [
+      "breakfast",
+      "british",
+      "fry-up"
+    ]
+  },
+  {
     "slug": "fairy-cakes",
     "title": "Fairy Cakes",
     "tags": [
@@ -218,6 +227,15 @@
       "dessert",
       "british",
       "pudding"
+    ]
+  },
+  {
+    "slug": "ginger-beer",
+    "title": "Ginger Beer",
+    "tags": [
+      "drink",
+      "british",
+      "fermented"
     ]
   },
   {
@@ -351,6 +369,15 @@
     ]
   },
   {
+    "slug": "perfect-sandwich",
+    "title": "Perfect Sandwich",
+    "tags": [
+      "main",
+      "sandwich",
+      "technique"
+    ]
+  },
+  {
     "slug": "ploughmans-lunch",
     "title": "Ploughman's Lunch",
     "tags": [
@@ -366,6 +393,15 @@
       "pastry",
       "dessert",
       "savory"
+    ]
+  },
+  {
+    "slug": "ramen",
+    "title": "Ramen",
+    "tags": [
+      "main",
+      "asian",
+      "quick"
     ]
   },
   {
@@ -470,6 +506,15 @@
       "dessert",
       "british",
       "pudding"
+    ]
+  },
+  {
+    "slug": "stir-fry",
+    "title": "Stir Fry",
+    "tags": [
+      "main",
+      "asian",
+      "quick"
     ]
   },
   {

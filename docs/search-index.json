@@ -211,6 +211,17 @@
     "url": "./eccles-cakes.html"
   },
   {
+    "slug": "english-breakfast",
+    "title": "English Breakfast",
+    "tags": [
+      "breakfast",
+      "british",
+      "fry-up"
+    ],
+    "content": "\r\n  english breakfast\r   ingredients\r  4 rashers bacon\r  4 pork sausages\r  1 tin baked beans\r  4 slices bread\r  2 slices black pudding  if it doesn t make you yak \r  strong coffee  milky or not \r   instructions\r1  fry bacon and sausages until crispy \r2  heat beans in pan \r3  fry bread in bacon fat until golden \r4  toast additional bread slices \r5  cook black pudding if using \r6  serve all components together \r7  accompany with strong coffee  milky or black  ",
+    "url": "./english-breakfast.html"
+  },
+  {
     "slug": "fairy-cakes",
     "title": "Fairy Cakes",
     "tags": [
@@ -271,6 +282,17 @@
     ],
     "content": "\r\n  fruit crumble\r   ingredients\r  500g mixed fruit  apples  berries  rhubarb \r  100g caster sugar\r  200g plain flour\r  100g butter  cold and cubed\r  50g demerara sugar\r  1 tsp ground cinnamon\r   instructions\r1  preheat oven to 180 c \r2  place fruit in baking dish  sprinkle with caster sugar \r3  rub butter into flour until breadcrumb texture \r4  stir in demerara sugar and cinnamon \r5  sprinkle crumble mixture over fruit \r6  bake 30 35 minutes until golden and bubbling  ",
     "url": "./fruit-crumble.html"
+  },
+  {
+    "slug": "ginger-beer",
+    "title": "Ginger Beer",
+    "tags": [
+      "drink",
+      "british",
+      "fermented"
+    ],
+    "content": "\r\n  ginger beer\r   ingredients\r  1 organic ginger root\r  200g sugar\r  1 lemon\r  2l water\r  1 tsp cream of tartar\r   instructions\r1  grate ginger  place in jar with 100g sugar and 500ml water \r2  cover with cloth  leave 3 5 days until bubbly  starter  \r3  strain starter  add remaining sugar  lemon juice  and water \r4  bottle  leave 2 3 days to carbonate \r5  refrigerate to stop fermentation  ",
+    "url": "./ginger-beer.html"
   },
   {
     "slug": "gingerbread",
@@ -433,6 +455,17 @@
     "url": "./omelette.html"
   },
   {
+    "slug": "perfect-sandwich",
+    "title": "Perfect Sandwich",
+    "tags": [
+      "main",
+      "sandwich",
+      "technique"
+    ],
+    "content": "\r\n  perfect sandwich\r   ingredients\r  2 slices bread\r  fat  butter mayo cream cheese \r  sauce  jam chutney mustard \r  2 contrasting textured fillings\r  salt and pepper\r  all purpose seasoning\r   instructions\r1  spread fat on one slice of bread \r2  spread sauce on other slice \r3  add first textured filling \r4  add contrasting textured filling \r5  season with salt and pepper \r6  sprinkle all purpose seasoning if you feel fancy \r7  toast in george foreman until golden  \r8  cut slightly off diagonal  quarters if you re having a picnic ",
+    "url": "./perfect-sandwich.html"
+  },
+  {
     "slug": "ploughmans-lunch",
     "title": "Ploughman's Lunch",
     "tags": [
@@ -453,6 +486,17 @@
     ],
     "content": "\r\n  puff pastry\r   ingredients\r  250g strong bread flour\r  1 2 tsp salt\r  250g cold butter\r  150ml cold water\r   instructions\r1  mix flour and salt  add 50g butter and rub in \r2  gradually add water to form a soft dough \r3  knead briefly  wrap and chill for 30 minutes \r4  roll out to a rectangle  place remaining butter in centre \r6  roll out and fold in thirds  like a letter  \r7  chill for 30 minutes  repeat folding process 5 more times \r8  chill for final 30 minutes before use \r\n",
     "url": "./puff-pastry.html"
+  },
+  {
+    "slug": "ramen",
+    "title": "Ramen",
+    "tags": [
+      "main",
+      "asian",
+      "quick"
+    ],
+    "content": "\r\n  ramen\r   ingredients\r  200g rice noodles\r  1l chicken stock\r  2 tbsp miso paste\r  1 tbsp soy sauce\r  1 tsp sesame oil\r  whatever vegetables you have\r  whatever protein you have\r  1 egg  optional \r  spring onions  sliced\r   instructions\r1  cook noodles according to packet \r2  heat stock  whisk in miso and soy sauce \r3  add vegetables  simmer 2 minutes \r4  add protein  heat through \r5  add noodles to bowls  pour over broth \r6  top with egg if using  spring onions  ",
+    "url": "./ramen.html"
   },
   {
     "slug": "ratatouille",
@@ -581,6 +625,17 @@
     ],
     "content": "\r\n  spotted dick\r   ingredients\r  200g self raising flour\r  100g shredded suet\r  100g currants\r  100ml cold water\r  1 tsp mixed spice\r  pinch of salt\r   instructions\r1  mix flour  suet  currants  spice  and salt \r2  add water to form soft dough \r3  shape into cylinder  wrap in foil \r4  steam 2 hours until firm \r5  serve hot with custard  ",
     "url": "./spotted-dick.html"
+  },
+  {
+    "slug": "stir-fry",
+    "title": "Stir Fry",
+    "tags": [
+      "main",
+      "asian",
+      "quick"
+    ],
+    "content": "\r\n  stir fry\r   ingredients\r  300g protein  chicken pork beef tofu \r  2 tbsp oil\r  2 cloves garlic  minced\r  1 inch ginger  grated\r  2 tbsp soy sauce\r  1 tbsp oyster sauce\r  1 tsp sesame oil\r  mixed vegetables\r  200g noodles or rice\r  spring onions  sliced\r   instructions\r1  heat wok until smoking hot \r2  stir fry protein in batches  set aside \r3  add garlic and ginger  cook 30 seconds \r4  add vegetables  stir fry 2 minutes \r5  return protein  add sauces \r6  toss in cooked noodles rice \r7  finish with sesame oil and spring onions  ",
+    "url": "./stir-fry.html"
   },
   {
     "slug": "thai-curry",
