@@ -63,22 +63,68 @@ function renderSearchResults(recipes) {
   const listEl = document.getElementById('list');
   if (!listEl) return;
   
-  listEl.innerHTML = recipes
+  const recipesList = recipes
     .map(recipe => `<a href="${recipe.slug}.html" class="item" data-slug="${recipe.slug}">${recipe.title}</a>`)
     .join('');
+  
+  // Add close button for mobile
+  listEl.innerHTML = `
+    <div class="mobile-aside-header">
+      <button class="close-mobile-menu" aria-label="Close menu">✕</button>
+    </div>
+    ${recipesList}
+  `;
+}
+
+// Mobile menu toggle functions
+function toggleMobileMenu() {
+  document.body.classList.toggle('show-list');
+}
+
+function closeMobileMenu() {
+  document.body.classList.remove('show-list');
 }
 
 // Handle recipe navigation
 export function initNavigation() {
   const listEl = document.getElementById('list');
+  const menuToggle = document.getElementById('menu-toggle');
+  
   if (!listEl) return;
   
+  // Handle recipe clicks
   listEl.addEventListener('click', e => {
     const link = e.target.closest('a.item');
+    const closeBtn = e.target.closest('.close-mobile-menu');
+    
     if (link) {
       e.preventDefault(); // Prevent default link behavior
       const slug = link.dataset.slug;
       navigateToRecipe(slug);
+      // Close mobile menu when selecting a recipe
+      closeMobileMenu();
+    } else if (closeBtn) {
+      e.preventDefault();
+      closeMobileMenu();
+    }
+  });
+
+  // Mobile menu toggle
+  if (menuToggle) {
+    menuToggle.addEventListener('click', toggleMobileMenu);
+  }
+
+  // Close mobile menu when clicking the overlay
+  document.addEventListener('click', (e) => {
+    if (document.body.classList.contains('show-list') && e.target === document.body) {
+      closeMobileMenu();
+    }
+  });
+
+  // Close mobile menu with escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && document.body.classList.contains('show-list')) {
+      closeMobileMenu();
     }
   });
 }
