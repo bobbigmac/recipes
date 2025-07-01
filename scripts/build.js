@@ -109,7 +109,7 @@ for (const file of readdirSync(srcDir)) {
   }
   const title = data.title || slug;
 
-  const fullHtml = `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>${title}</title><meta name="viewport" content="width=device-width,initial-scale=1"></head><body>${htmlBody}</body></html>`;
+  const fullHtml = `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>${title}</title><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="../style.css"></head><body><header><h1><a href="/">Recipes</a></h1><input type="search" id="filter" placeholder="Filter recipes…"/></header><aside id="list"></aside><main id="content">${htmlBody}</main><script type="module" src="../app.js"></script></body></html>`;
   writeFileSync(join(outRecipeDir, `${slug}.html`), fullHtml);
 
   list.push({ slug, title, tags: data.tags || [] });
@@ -118,9 +118,35 @@ for (const file of readdirSync(srcDir)) {
 // Write listing
 writeFileSync(join(outDir, 'recipes.json'), JSON.stringify(list, null, 2));
 
+// Create search index
+const searchIndex = list.map(recipe => {
+  const recipePath = join(srcDir, `${recipe.slug}.md`);
+  const recipeContent = readFileSync(recipePath, 'utf8');
+  const { content } = matter(recipeContent);
+  
+  // Clean content for search
+  const cleanContent = content
+    .replace(/^\s+##/gm, '##')
+    .replace(/^\s+[-*]/gm, (match) => match.trim())
+    .replace(/^\s+\d+\./gm, (match) => match.trim())
+    .replace(/[^\w\s]/g, ' ')
+    .toLowerCase();
+  
+  return {
+    slug: recipe.slug,
+    title: recipe.title,
+    tags: recipe.tags,
+    content: cleanContent,
+    url: `recipes/${recipe.slug}.html`
+  };
+});
+
+writeFileSync(join(outDir, 'search-index.json'), JSON.stringify(searchIndex, null, 2));
+
 // Copy static assets
 copyFileSync('src/index.html', join(outDir, 'index.html'));
 copyFileSync('src/style.css', join(outDir, 'style.css'));
 copyFileSync('src/app.js', join(outDir, 'app.js'));
+copyFileSync('src/search.js', join(outDir, 'search.js'));
 
 console.log('Build complete. Recipes:', list.length);
