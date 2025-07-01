@@ -18,10 +18,10 @@ tags: ['dessert', 'baking', 'british']
 
 ## Instructions
 1. Cream butter and sugar until light and fluffy.
-2. Beat in eggs one at a time, then vanilla.
-3. Fold in flour and milk alternately.
-4. Divide between two 20cm greased tins.
-5. Bake 180°C 20-22 min until golden and a cocktail stick comes out clean.
+2. Beat eggs to light in a separate bowl (don't get oil/fat in it).
+3. Fold in eggs, then flour adding milk as needed to keep it light.
+4. Divide between two greased tins.
+5. Bake 180°C 18-22 min (by the thin/thickness of your fill) until golden and a cocktail stick comes out clean.
 6. Cool completely, then sandwich with jam and cream.
 7. Dust with icing sugar.
 
