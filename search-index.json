@@ -9,6 +9,17 @@
     "url": "./banana-bread.html"
   },
   {
+    "slug": "bechamel-sauce",
+    "title": "Béchamel Sauce",
+    "tags": [
+      "sauce",
+      "french",
+      "basic"
+    ],
+    "content": "\n  b chamel sauce\n   ingredients\n  50g butter\n  50g plain flour\n  500ml milk\n  salt and pepper\n   instructions\n1  melt butter in pan over medium heat \n2  stir in flour  cook 1 minute \n3  gradually add milk  whisking constantly \n4  cook until thickened  stirring continuously \n5  season with salt and pepper \n6  remember  sauce thickens as it cools  ",
+    "url": "./bechamel-sauce.html"
+  },
+  {
     "slug": "beef-bourguignon",
     "title": "Beef Bourguignon",
     "tags": [
@@ -18,6 +29,27 @@
     ],
     "content": "\n  beef bourguignon\n   ingredients\n  1kg beef chuck  cubed\n  150g bacon  diced\n  2 onions  chopped\n  2 carrots  sliced\n  2 cloves garlic  minced\n  2 tbsp tomato paste\n  500ml red wine\n  300ml beef stock\n  2 tbsp flour\n  2 tbsp oil\n  1 bay leaf\n  1 tsp thyme\n  200g mushrooms  quartered\n  salt and pepper\n   instructions\n1  brown beef in oil  set aside  fry bacon until crisp \n2  add onions  carrots  garlic  cook 5 min \n3  stir in tomato paste  flour  cook 2 min \n4  add wine  stock  herbs  return beef and bacon \n5  simmer covered 2 hours until tender \n6  add mushrooms  cook 20 min uncovered \n7  season to taste  serve with potatoes or bread  ",
     "url": "./beef-bourguignon.html"
+  },
+  {
+    "slug": "boiled-eggs",
+    "title": "Boiled Eggs (Heston Method)",
+    "tags": [
+      "breakfast",
+      "basic"
+    ],
+    "content": "\n  boiled eggs  heston method \n   ingredients\n  fresh eggs\n  water\n  salt\n   instructions\n1  bring lightly salted water to a boil in a large pot \n2  gently add eggs to the boiling water \n3  reduce heat to barely simmer \n4  cook for 6 10 minutes  6 minutes for very runny  10 minutes for quite hard boiled  \n5  remove eggs and immediately drop each into a bowl of cold water \n6  let cool for 1 2 minutes to make shells easy to remove \n7  peel and serve immediately  ",
+    "url": "./boiled-eggs.html"
+  },
+  {
+    "slug": "bread-and-butter-pudding",
+    "title": "Bread and Butter Pudding",
+    "tags": [
+      "dessert",
+      "pudding",
+      "british"
+    ],
+    "content": "\n  bread and butter pudding\n   ingredients\n  8 slices white bread  crusts removed\n  100g butter  softened\n  100g raisins or sultanas\n  4 eggs\n  500ml whole milk\n  100g caster sugar\n  1 tsp vanilla extract\n  1 tsp ground cinnamon\n  2 tbsp demerara sugar\n   instructions\n1  butter each slice of bread and cut into triangles \n2  arrange half the bread triangles in a greased baking dish \n3  sprinkle with half the raisins and cinnamon \n4  layer remaining bread triangles and raisins \n5  whisk together eggs  milk  sugar  and vanilla \n6  pour custard mixture over bread and let soak for 30 minutes \n7  sprinkle with demerara sugar and bake at 180 c for 30 35 minutes \n8  serve warm with custard or cream  ",
+    "url": "./bread-and-butter-pudding.html"
   },
   {
     "slug": "british-curry",
@@ -82,6 +114,28 @@
     "url": "./choux-pastry.html"
   },
   {
+    "slug": "christmas-cake",
+    "title": "Christmas Cake",
+    "tags": [
+      "dessert",
+      "british",
+      "christmas"
+    ],
+    "content": "\n  christmas cake\n   ingredients\n  300g mixed dried fruit\n  100ml brandy or sherry\n  200g butter\n  200g brown sugar\n  4 eggs\n  200g plain flour\n  1 tsp mixed spice\n  1 tsp ground cinnamon\n  50g chopped nuts\n   instructions\n1  soak fruit in alcohol overnight \n2  cream butter and sugar  beat in eggs \n3  fold in flour  spices  and soaked fruit \n4  line 20cm cake tin with greaseproof paper \n5  bake 150 c 2 3 hours until skewer clean \n6  cool  wrap in foil  store in cool place \n7  feed with alcohol weekly until christmas  ",
+    "url": "./christmas-cake.html"
+  },
+  {
+    "slug": "christmas-pudding",
+    "title": "Christmas Pudding",
+    "tags": [
+      "dessert",
+      "british",
+      "christmas"
+    ],
+    "content": "\n  christmas pudding\n   ingredients\n  200g mixed dried fruit\n  100g breadcrumbs\n  100g shredded suet\n  100g brown sugar\n  2 eggs\n  100ml stout or ale\n  1 tsp mixed spice\n  1 tsp ground cinnamon\n  50g chopped nuts\n   instructions\n1  mix all ingredients in large bowl \n2  cover  leave overnight \n3  grease pudding basin  line with foil \n4  fill basin  cover with foil and cloth \n5  steam 6 hours \n6  store in cool place until christmas \n7  re steam 2 hours before serving  ",
+    "url": "./christmas-pudding.html"
+  },
+  {
     "slug": "classic-pancakes",
     "title": "Classic Pancakes",
     "tags": [
@@ -102,6 +156,38 @@
     "url": "./cottage-pie.html"
   },
   {
+    "slug": "crumpets",
+    "title": "Crumpets",
+    "tags": [
+      "breakfast",
+      "british",
+      "bread"
+    ],
+    "content": "\n  crumpets\n   ingredients\n  300g strong bread flour\n  7g fast action yeast\n  1 tsp salt\n  1 tsp sugar\n  300ml warm water\n  1 tsp bicarbonate of soda\n  2 tbsp warm water\n   instructions\n1  mix flour  yeast  salt  sugar  and warm water \n2  leave to rise 1 hour \n3  dissolve bicarb in 2 tbsp warm water \n4  stir into batter \n5  heat griddle  grease crumpet rings \n6  pour batter into rings  cook 5 minutes \n7  remove rings  flip  cook 2 minutes  ",
+    "url": "./crumpets.html"
+  },
+  {
+    "slug": "cupcakes",
+    "title": "Cupcakes",
+    "tags": [
+      "dessert",
+      "baking"
+    ],
+    "content": "\n  cupcakes\n   ingredients\n  125g butter  softened\n  125g caster sugar\n  2 eggs\n  125g self raising flour\n  1 tsp vanilla extract\n  2 tbsp milk\n   instructions\n1  preheat oven to 180 c and line a 12 hole muffin tin with paper cases \n2  cream butter and sugar together until light and fluffy \n3  beat in eggs one at a time  adding a little flour with each egg \n4  fold in remaining flour and vanilla extract \n5  add milk to achieve a dropping consistency \n6  divide mixture between paper cases  filling each two thirds full \n7  bake for 18 20 minutes until golden and springy to touch \n8  cool in tin for 5 minutes  then transfer to wire rack \n9  once completely cool  decorate with buttercream frosting \n10  add sprinkles  chocolate chips  or other decorations as desired  ",
+    "url": "./cupcakes.html"
+  },
+  {
+    "slug": "custard",
+    "title": "Custard",
+    "tags": [
+      "dessert",
+      "sauce",
+      "british"
+    ],
+    "content": "\n  custard\n   ingredients\n  4 egg yolks\n  50g caster sugar\n  1 tsp vanilla extract\n  300ml whole milk\n  100ml double cream\n   instructions\n1  whisk egg yolks and sugar together until pale and creamy \n2  heat milk and cream in a pan until just below boiling \n3  gradually pour hot milk mixture into egg yolks  whisking constantly \n4  return mixture to the pan and cook over low heat  stirring continuously \n5  cook until custard thickens enough to coat the back of a spoon \n6  remove from heat and stir in vanilla extract \n7  strain through a fine sieve to remove any lumps \n8  serve warm or chilled with desserts  ",
+    "url": "./custard.html"
+  },
+  {
     "slug": "dal-tadka",
     "title": "Dal Tadka",
     "tags": [
@@ -112,6 +198,28 @@
     ],
     "content": "\n  dal tadka\n   ingredients\n  200g toor dal  yellow split lentils \n  1 onion  chopped\n  2 tomatoes  chopped\n  3 cloves garlic  minced\n  1 tbsp ginger  grated\n  2 green chilies  sliced\n  1 tsp cumin seeds\n  1 tsp turmeric\n  1 tsp chili powder\n  1 tsp garam masala\n  2 tbsp ghee or oil\n  fresh coriander\n  salt\n   instructions\n1  rinse dal  boil with turmeric and salt until soft \n2  heat ghee  fry cumin seeds  then onion  garlic  ginger  and chilies \n3  add tomatoes  cook until soft \n4  add chili powder and garam masala \n5  stir in cooked dal  simmer 10 min \n6  garnish with coriander  serve with rice or roti  ",
     "url": "./dal-tadka.html"
+  },
+  {
+    "slug": "eccles-cakes",
+    "title": "Eccles Cakes",
+    "tags": [
+      "dessert",
+      "british",
+      "pastry"
+    ],
+    "content": "\n  eccles cakes\n   ingredients\n  500g puff pastry\n  200g currants\n  50g butter\n  50g brown sugar\n  1 tsp mixed spice\n  1 egg  beaten\n  demerara sugar\n   instructions\n1  mix currants  butter  sugar  and spice \n2  roll pastry  cut 8cm circles \n3  place filling in centre  fold edges over \n4  turn over  make 3 slits in top \n5  brush with egg  sprinkle with demerara \n6  bake 200 c 15 20 minutes until golden  ",
+    "url": "./eccles-cakes.html"
+  },
+  {
+    "slug": "fairy-cakes",
+    "title": "Fairy Cakes",
+    "tags": [
+      "dessert",
+      "baking",
+      "british"
+    ],
+    "content": "\n  fairy cakes\n   ingredients\n  100g butter  softened\n  100g caster sugar\n  2 eggs\n  100g self raising flour\n  1 tsp vanilla extract\n  2 tbsp milk\n   instructions\n1  preheat oven to 180 c and line a 12 hole muffin tin with paper cases \n2  cream butter and sugar together until light and fluffy \n3  beat in eggs one at a time  adding a little flour with each egg \n4  fold in remaining flour and vanilla extract \n5  add milk to achieve a dropping consistency \n6  divide mixture between paper cases  filling each two thirds full \n7  bake for 15 20 minutes until golden and springy to touch \n8  cool in tin for 5 minutes  then transfer to wire rack \n9  once completely cool  cut a small circle from the top of each cake \n10  fill the hole with jam or buttercream and replace the top  ",
+    "url": "./fairy-cakes.html"
   },
   {
     "slug": "filo-pastry",
@@ -152,6 +260,28 @@
     ],
     "content": "\n  fried rice\n   ingredients\n  2 cups cooked rice  cold   \n  1 tbsp oil  \n  1 egg  beaten  \n  1 cup mixed veggies  \n  2 tbsp soy sauce  \n   instructions\n1  scramble egg  set aside   \n2  stir fry veggies  add rice  soy sauce  egg   \n3  heat through  serve hot \n\n",
     "url": "./fried-rice.html"
+  },
+  {
+    "slug": "fruit-crumble",
+    "title": "Fruit Crumble",
+    "tags": [
+      "dessert",
+      "british",
+      "pudding"
+    ],
+    "content": "\n  fruit crumble\n   ingredients\n  500g mixed fruit  apples  berries  rhubarb \n  100g caster sugar\n  200g plain flour\n  100g butter  cold and cubed\n  50g demerara sugar\n  1 tsp ground cinnamon\n   instructions\n1  preheat oven to 180 c \n2  place fruit in baking dish  sprinkle with caster sugar \n3  rub butter into flour until breadcrumb texture \n4  stir in demerara sugar and cinnamon \n5  sprinkle crumble mixture over fruit \n6  bake 30 35 minutes until golden and bubbling  ",
+    "url": "./fruit-crumble.html"
+  },
+  {
+    "slug": "gingerbread",
+    "title": "Gingerbread",
+    "tags": [
+      "dessert",
+      "british",
+      "biscuit"
+    ],
+    "content": "\n  gingerbread\n   ingredients\n  350g plain flour\n  1 tsp bicarbonate of soda\n  2 tsp ground ginger\n  1 tsp ground cinnamon\n  100g butter\n  175g golden syrup\n  175g black treacle\n  100g brown sugar\n  1 egg\n  2 tbsp milk\n   instructions\n1  mix flour  bicarb  and spices \n2  melt butter  syrup  treacle  and sugar \n3  beat egg and milk into melted mixture \n4  stir into dry ingredients \n5  pour into greased 20cm square tin \n6  bake 160 c 45 50 minutes \n7  cool  cut into squares  ",
+    "url": "./gingerbread.html"
   },
   {
     "slug": "gluten-free-pizza-dough",
@@ -196,6 +326,27 @@
     "url": "./grilled-cheese.html"
   },
   {
+    "slug": "hot-cross-buns",
+    "title": "Hot Cross Buns",
+    "tags": [
+      "dessert",
+      "british",
+      "easter"
+    ],
+    "content": "\n  hot cross buns\n   ingredients\n  500g strong bread flour\n  7g fast action yeast\n  50g caster sugar\n  1 tsp mixed spice\n  100g mixed dried fruit\n  300ml warm milk\n  50g butter  melted\n  1 egg\n  50g plain flour  for crosses \n   instructions\n1  mix flour  yeast  sugar  spice  and fruit \n2  add warm milk  butter  and egg \n3  knead 10 minutes  leave to rise 1 hour \n4  shape into 12 buns  place on tray \n5  leave to rise 30 minutes \n6  pipe flour paste crosses on top \n7  bake 200 c 15 20 minutes  ",
+    "url": "./hot-cross-buns.html"
+  },
+  {
+    "slug": "ice-cream",
+    "title": "Ice Cream",
+    "tags": [
+      "dessert",
+      "frozen"
+    ],
+    "content": "\n  ice cream\n   ingredients\n  6 egg yolks\n  150g caster sugar\n  500ml double cream\n  250ml whole milk\n  1 tsp vanilla extract\n  pinch of salt\n   instructions\n1  whisk egg yolks and sugar together until pale and creamy \n2  heat cream and milk in a pan until just below boiling \n3  gradually pour hot cream mixture into egg yolks  whisking constantly \n4  return mixture to the pan and cook over low heat  stirring continuously \n5  cook until mixture thickens enough to coat the back of a spoon \n6  remove from heat and stir in vanilla extract and salt \n7  strain through a fine sieve and cool completely \n8  churn in an ice cream maker according to manufacturer s instructions \n9  transfer to a freezer safe container and freeze for at least 4 hours \n10  serve when firm but scoopable  ",
+    "url": "./ice-cream.html"
+  },
+  {
     "slug": "instant-pot-baked-potatoes",
     "title": "Instant Pot Baked Potatoes",
     "tags": [
@@ -218,6 +369,17 @@
     "url": "./jalfrezi.html"
   },
   {
+    "slug": "kedgeree",
+    "title": "Kedgeree",
+    "tags": [
+      "main",
+      "british",
+      "breakfast"
+    ],
+    "content": "\n  kedgeree\n   ingredients\n  300g basmati rice\n  400g smoked haddock\n  4 hard boiled eggs\n  1 onion  chopped\n  2 tbsp butter\n  1 tsp curry powder\n  1 tbsp chopped parsley\n  salt and pepper\n   instructions\n1  cook rice  drain  keep warm \n2  poach haddock in water 5 minutes  flake \n3  fry onion in butter until soft \n4  add curry powder  cook 1 minute \n5  stir in rice  fish  and chopped eggs \n6  season  garnish with parsley  ",
+    "url": "./kedgeree.html"
+  },
+  {
     "slug": "korma",
     "title": "Chicken Korma",
     "tags": [
@@ -227,6 +389,28 @@
     ],
     "content": "\n  chicken korma\n   ingredients\n  600g chicken breast  cubed\n  2 onions  sliced\n  3 cloves garlic  minced\n  1 tbsp ginger  grated\n  100g ground almonds\n  200ml coconut milk\n  100ml double cream\n  2 tbsp yogurt\n  2 tbsp korma curry powder\n  1 tsp turmeric\n  1 tsp ground coriander\n  1 tsp ground cumin\n  1 tsp cardamom\n  2 tbsp oil\n  salt\n   instructions\n1  fry onions in oil until soft  add garlic and ginger \n2  add all spices  cook 1 min \n3  add chicken  brown lightly \n4  stir in ground almonds  coconut milk  yogurt  and cream \n5  simmer 20 min until chicken is cooked and sauce thickens \n6  season to taste  serve with rice  ",
     "url": "./korma.html"
+  },
+  {
+    "slug": "milk-blancmange",
+    "title": "Milk Blancmange",
+    "tags": [
+      "dessert",
+      "pudding",
+      "british"
+    ],
+    "content": "\n  milk blancmange\n   ingredients\n  600ml whole milk\n  50g caster sugar\n  25g cornflour\n  1 tsp vanilla extract\n  1 tbsp cold milk  for cornflour \n  ground nutmeg  optional \n   instructions\n1  mix cornflour with 1 tbsp cold milk to form a smooth paste \n2  heat remaining milk and sugar in a pan until just below boiling \n3  gradually whisk cornflour paste into hot milk \n4  cook over medium heat  stirring constantly  until mixture thickens \n5  continue cooking for 2 3 minutes to cook out cornflour taste \n6  remove from heat and stir in vanilla extract \n7  pour into individual moulds or a serving dish \n8  sprinkle with nutmeg if desired \n9  chill in refrigerator for at least 2 hours until set \n10  turn out and serve cold  ",
+    "url": "./milk-blancmange.html"
+  },
+  {
+    "slug": "mince-pies",
+    "title": "Mince Pies",
+    "tags": [
+      "dessert",
+      "british",
+      "christmas"
+    ],
+    "content": "\n  mince pies\n   ingredients\n  500g shortcrust pastry\n  400g mincemeat\n  1 egg  beaten\n  icing sugar\n   instructions\n1  roll pastry  cut circles for bases and lids \n2  line muffin tin with pastry bases \n3  fill with mincemeat \n4  cover with pastry lids  make small hole \n5  brush with beaten egg \n6  bake 200 c 15 20 minutes until golden \n7  dust with icing sugar when cool  ",
+    "url": "./mince-pies.html"
   },
   {
     "slug": "nehari",
@@ -247,6 +431,17 @@
     ],
     "content": "\n  simple omelette\n   ingredients\n  2 eggs  \n  pinch of salt  \n  1 tbsp butter  \n   instructions\n1  beat eggs with salt   \n2  melt butter in non stick pan   \n3  pour eggs  cook gently  fold and serve \n\n",
     "url": "./omelette.html"
+  },
+  {
+    "slug": "ploughmans-lunch",
+    "title": "Ploughman's Lunch",
+    "tags": [
+      "main",
+      "british",
+      "cold"
+    ],
+    "content": "\n  ploughman s lunch\n   ingredients\nchoose from \n  mature cheddar cheese\n  stilton or blue cheese\n  pickled onions\n  branston pickle\n  chutney\n  crusty bread or rolls\n  butter\n  celery sticks\n  apple slices\n  hard boiled eggs\n  ham or pork pie\n  pickled eggs\n  radishes\n   instructions\n1  arrange cheese  bread  and accompaniments on a plate \n2  serve with butter and chosen pickles chutneys \n3  include fresh vegetables and fruit \n4  add cold meats if desired  ",
+    "url": "./ploughmans-lunch.html"
   },
   {
     "slug": "puff-pastry",
@@ -282,6 +477,16 @@
     "url": "./red-curry.html"
   },
   {
+    "slug": "rice-pudding",
+    "title": "Rice Pudding",
+    "tags": [
+      "dessert",
+      "pudding"
+    ],
+    "content": "\n  rice pudding\n   ingredients\n  100g short grain rice\n  1l whole milk\n  100g caster sugar\n  1 vanilla pod or 1 tsp vanilla extract\n  50g butter\n  pinch of salt\n  ground nutmeg  optional \n   instructions\n1  rinse rice under cold water until water runs clear \n2  in a heavy bottomed pan  combine rice  milk  sugar  vanilla  and salt \n3  bring to a gentle simmer over medium heat  stirring frequently \n4  reduce heat to low and cook for 45 60 minutes  stirring every 10 minutes \n5  add butter and stir until melted and incorporated \n6  continue cooking until rice is tender and mixture is creamy \n7  sprinkle with nutmeg if desired and serve warm or chilled  ",
+    "url": "./rice-pudding.html"
+  },
+  {
     "slug": "rogan-josh",
     "title": "Rogan Josh",
     "tags": [
@@ -291,6 +496,17 @@
     ],
     "content": "\n  rogan josh\n   ingredients\n  700g lamb shoulder  cubed\n  2 onions  sliced\n  4 cloves garlic  minced\n  1 tbsp ginger  grated\n  2 tbsp tomato pur e\n  200g greek yogurt\n  2 tsp ground coriander\n  2 tsp ground cumin\n  2 tsp paprika\n  1 tsp turmeric\n  1 tsp garam masala\n  1 tsp chili powder\n  1 tsp ground cardamom\n  1 tsp ground cinnamon\n  2 tbsp oil\n  salt\n   instructions\n1  brown lamb in oil  set aside \n2  fry onions until golden  add garlic and ginger \n3  add all spices  cook 1 min \n4  stir in tomato pur e  cook 2 min \n5  return lamb  add yogurt  mix well \n6  add 200ml water  simmer covered 1 5 hours until tender \n7  uncover  reduce sauce  season to taste  ",
     "url": "./rogan-josh.html"
+  },
+  {
+    "slug": "sausage-rolls",
+    "title": "Sausage Rolls",
+    "tags": [
+      "main",
+      "british",
+      "pastry"
+    ],
+    "content": "\n  sausage rolls\n   ingredients\n  500g puff pastry\n  400g sausage meat\n  1 small onion  finely chopped\n  1 tsp dried sage\n  1 egg  beaten\n  salt and pepper\n   instructions\n1  preheat oven to 200 c and line a baking tray with parchment \n2  mix sausage meat with chopped onion  sage  salt  and pepper \n3  roll out puff pastry to a rectangle about 30cm x 20cm \n4  cut pastry in half lengthways to make two long strips \n5  shape sausage meat into two long sausages to fit the pastry strips \n6  place sausage meat along the centre of each pastry strip \n7  brush edges with beaten egg and fold pastry over to encase meat \n8  press edges together to seal and crimp with a fork \n9  cut into 8 10 pieces and place on baking tray \n10  brush tops with beaten egg and bake for 20 25 minutes until golden  ",
+    "url": "./sausage-rolls.html"
   },
   {
     "slug": "scones",
@@ -356,6 +572,17 @@
     "url": "./spanish-tortilla.html"
   },
   {
+    "slug": "spotted-dick",
+    "title": "Spotted Dick",
+    "tags": [
+      "dessert",
+      "british",
+      "pudding"
+    ],
+    "content": "\n  spotted dick\n   ingredients\n  200g self raising flour\n  100g shredded suet\n  100g currants\n  100ml cold water\n  1 tsp mixed spice\n  pinch of salt\n   instructions\n1  mix flour  suet  currants  spice  and salt \n2  add water to form soft dough \n3  shape into cylinder  wrap in foil \n4  steam 2 hours until firm \n5  serve hot with custard  ",
+    "url": "./spotted-dick.html"
+  },
+  {
     "slug": "thai-curry",
     "title": "Thai Curry",
     "tags": [
@@ -367,6 +594,17 @@
     "url": "./thai-curry.html"
   },
   {
+    "slug": "toad-in-the-hole",
+    "title": "Toad in the Hole",
+    "tags": [
+      "main",
+      "british",
+      "batter"
+    ],
+    "content": "\n  toad in the hole\n   ingredients\n  8 pork sausages\n  140g plain flour\n  4 eggs\n  200ml milk\n  2 tbsp oil\n  pinch of salt\n   instructions\n1  whisk flour  eggs  milk  and salt to smooth batter \n2  rest batter 30 minutes \n3  preheat oven to 220 c with oil in large baking dish \n4  add sausages to hot oil  cook 10 minutes \n5  pour batter around sausages \n6  bake 25 30 minutes until risen and golden  ",
+    "url": "./toad-in-the-hole.html"
+  },
+  {
     "slug": "tomato-soup",
     "title": "Tomato Soup",
     "tags": [
@@ -374,6 +612,17 @@
     ],
     "content": "\n  tomato soup\n   ingredients\n  2 tbsp olive oil  \n  1 onion  diced  \n  2 cloves garlic  minced  \n  800 g canned tomatoes  \n  500 ml vegetable stock  \n  salt   pepper  \n   instructions\n1  saut  onion   garlic   \n2  add tomatoes   stock  simmer 15 min   \n3  blend smooth  season \n\n",
     "url": "./tomato-soup.html"
+  },
+  {
+    "slug": "trifle",
+    "title": "Trifle",
+    "tags": [
+      "dessert",
+      "british",
+      "pudding"
+    ],
+    "content": "\n  trifle\n   ingredients\n  1 sponge cake or 200g sponge fingers\n  100ml sherry or fruit juice\n  400g mixed berries or fruit\n  500ml custard\n  300ml double cream\n  2 tbsp icing sugar\n  1 tsp vanilla extract\n  50g flaked almonds  optional \n   instructions\n1  cut sponge cake into slices or break sponge fingers into pieces \n2  arrange in the bottom of a large glass bowl \n3  drizzle with sherry or fruit juice and let soak for 10 minutes \n4  layer half the fruit over the sponge \n5  pour half the custard over the fruit \n6  repeat layers with remaining fruit and custard \n7  whip cream with icing sugar and vanilla until soft peaks form \n8  spread cream over the top of the trifle \n9  decorate with remaining fruit and flaked almonds if using \n10  chill for at least 2 hours before serving  ",
+    "url": "./trifle.html"
   },
   {
     "slug": "vanilla-biscuits",
@@ -396,5 +645,38 @@
     ],
     "content": "\n  victoria sponge cake\n   ingredients\n  200g butter  softened\n  200g caster sugar\n  4 eggs\n  200g self raising flour  or gf flour blend   2 tsp baking powder \n  1 tsp vanilla extract\n  3 tbsp milk\n  200ml double cream\n  4 tbsp strawberry jam\n  icing sugar for dusting\n   instructions\n1  cream butter and sugar until light and fluffy \n2  beat in eggs one at a time  then vanilla \n3  fold in flour and milk alternately \n4  divide between two 20cm greased tins \n5  bake 180 c 20 22 min until golden and a cocktail stick comes out clean \n6  cool completely  then sandwich with jam and cream \n7  dust with icing sugar \n   links\n   bbc good food  victoria sponge  https   www bbcgoodfood com recipes classic victoria sandwich recipe ",
     "url": "./victoria-sponge.html"
+  },
+  {
+    "slug": "welsh-cakes",
+    "title": "Welsh Cakes",
+    "tags": [
+      "dessert",
+      "british",
+      "welsh"
+    ],
+    "content": "\n  welsh cakes\n   ingredients\n  225g self raising flour\n  100g butter\n  75g caster sugar\n  75g currants\n  1 egg\n  1 tsp mixed spice\n  pinch of salt\n   instructions\n1  rub butter into flour until breadcrumbs \n2  stir in sugar  currants  spice  and salt \n3  beat egg  add to mixture \n4  roll out 5mm thick  cut 6cm circles \n5  cook on griddle 3 4 minutes each side \n6  serve warm with butter  ",
+    "url": "./welsh-cakes.html"
+  },
+  {
+    "slug": "welsh-rarebit",
+    "title": "Welsh Rarebit",
+    "tags": [
+      "main",
+      "british",
+      "cheese"
+    ],
+    "content": "\n  welsh rarebit\n   ingredients\n  200g mature cheddar cheese  grated\n  2 tbsp butter\n  2 tbsp flour\n  150ml beer or milk\n  1 tsp english mustard\n  1 tsp worcestershire sauce\n  2 egg yolks\n  4 slices thick bread  toasted\n  salt and pepper\n   instructions\n1  melt butter in a pan over medium heat \n2  stir in flour and cook for 1 minute to make a roux \n3  gradually whisk in beer or milk until smooth \n4  add cheese and stir until melted and smooth \n5  remove from heat and stir in mustard  worcestershire sauce  and egg yolks \n6  season with salt and pepper to taste \n7  spread mixture thickly over toasted bread \n8  place under a hot grill until bubbling and golden brown \n9  serve immediately while hot  ",
+    "url": "./welsh-rarebit.html"
+  },
+  {
+    "slug": "yorkshire-pudding",
+    "title": "Yorkshire Pudding",
+    "tags": [
+      "side",
+      "british",
+      "batter"
+    ],
+    "content": "\n  yorkshire pudding\n   ingredients\n  140g plain flour\n  4 eggs\n  200ml milk\n  2 tbsp oil or beef dripping\n  pinch of salt\n   instructions\n1  whisk flour  eggs  milk  and salt to smooth batter \n2  rest batter 30 minutes \n3  preheat oven to 220 c with oil in muffin tin \n4  when oil is smoking hot  pour in batter \n5  bake 20 25 minutes until risen and golden \n6  serve immediately with roast beef  ",
+    "url": "./yorkshire-pudding.html"
   }
 ]
