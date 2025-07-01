@@ -22,8 +22,8 @@ for (const file of readdirSync(srcDir)) {
   const htmlBody = md.render(content);
   const title = data.title || slug;
 
-  const fullHtml = \`<!doctype html><html lang="en"><head><meta charset="utf-8"><title>\${title}</title><meta name="viewport" content="width=device-width,initial-scale=1"></head><body>\${htmlBody}</body></html>\`;
-  writeFileSync(join(outRecipeDir, \`\${slug}.html\`), fullHtml);
+  const fullHtml = `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>${title}</title><meta name="viewport" content="width=device-width,initial-scale=1"></head><body>${htmlBody}</body></html>`;
+  writeFileSync(join(outRecipeDir, `${slug}.html`), fullHtml);
 
   list.push({ slug, title, tags: data.tags || [] });
 }
