@@ -64,7 +64,7 @@ function renderSearchResults(recipes) {
   if (!listEl) return;
   
   listEl.innerHTML = recipes
-    .map(recipe => `<button class="item" data-slug="${recipe.slug}">${recipe.title}</button>`)
+    .map(recipe => `<a href="${recipe.slug}.html" class="item" data-slug="${recipe.slug}">${recipe.title}</a>`)
     .join('');
 }
 
@@ -74,9 +74,10 @@ export function initNavigation() {
   if (!listEl) return;
   
   listEl.addEventListener('click', e => {
-    const btn = e.target.closest('button.item');
-    if (btn) {
-      const slug = btn.dataset.slug;
+    const link = e.target.closest('a.item');
+    if (link) {
+      e.preventDefault(); // Prevent default link behavior
+      const slug = link.dataset.slug;
       navigateToRecipe(slug);
     }
   });
