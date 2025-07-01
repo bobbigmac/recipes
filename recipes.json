@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "banana-bread",
+    "title": "Banana Bread",
+    "tags": [
+      "dessert"
+    ]
+  },
+  {
+    "slug": "caesar-salad",
+    "title": "Caesar Salad",
+    "tags": [
+      "salad"
+    ]
+  },
+  {
+    "slug": "chocolate-chip-cookies",
+    "title": "Chocolate Chip Cookies",
+    "tags": [
+      "dessert"
+    ]
+  },
+  {
+    "slug": "classic-pancakes",
+    "title": "Classic Pancakes",
+    "tags": [
+      "breakfast"
+    ]
+  },
+  {
+    "slug": "french-toast",
+    "title": "French Toast",
+    "tags": [
+      "breakfast"
+    ]
+  },
+  {
+    "slug": "fried-rice",
+    "title": "Fried Rice",
+    "tags": [
+      "dinner"
+    ]
+  },
+  {
+    "slug": "grilled-cheese",
+    "title": "Grilled Cheese",
+    "tags": [
+      "lunch"
+    ]
+  },
+  {
+    "slug": "omelette",
+    "title": "Simple Omelette",
+    "tags": [
+      "breakfast"
+    ]
+  },
+  {
+    "slug": "spaghetti-bolognese",
+    "title": "Spaghetti Bolognese",
+    "tags": [
+      "dinner"
+    ]
+  },
+  {
+    "slug": "tomato-soup",
+    "title": "Tomato Soup",
+    "tags": [
+      "soup"
+    ]
+  }
+]
