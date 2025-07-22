@@ -9,16 +9,14 @@
 </head>
 <body>
   <header>
-    <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
     <h1><a href="/">Recipes</a></h1>
-    <input type="search" id="filter" placeholder="Filter recipes…"/>
+    <input type="search" id="filter" placeholder="Search recipes…"/>
   </header>
 
-  <aside id="list"></aside>
   <main id="content">
-    <p>Select a recipe.</p>
-    <p>Or <a href="https://github.com/bobbigmac/recipes/recipes">add your own via Pull Request</a>.</p>
-    <p><small>Cos I'm tired of ads and scrolling through SEO-stuffed pages when all I need is an ingredients list and a cooking time/method.</small></p>
+    <div id="recipes-container">
+      <p>Loading recipes...</p>
+    </div>
   </main>
 
   <script>window.SITE_CONFIG={basePath:'./'};</script>

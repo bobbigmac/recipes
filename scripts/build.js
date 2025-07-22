@@ -126,7 +126,7 @@ for (const file of readdirSync(srcDir)) {
     `;
   }
 
-  const fullHtml = `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>${title}</title><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="style.css"></head><body><header><button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">☰</button><h1><a href="index.html">Recipes</a></h1><input type="search" id="filter" placeholder="Filter recipes…"/></header><aside id="list"></aside><main id="content">${htmlBody}</main><script>window.SITE_CONFIG={basePath:'./'};</script><script type="module" src="app.js"></script></body></html>`;
+  const fullHtml = `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>${title}</title><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="style.css"></head><body><header><h1><a href="index.html">Recipes</a></h1><input type="search" id="filter" placeholder="Search recipes…"/></header><main id="content">${htmlBody}</main><script>window.SITE_CONFIG={basePath:'./'};</script><script type="module" src="app.js"></script></body></html>`;
   writeFileSync(join(outDir, `${slug}.html`), fullHtml);
 
   list.push({ slug, title, tags: data.tags || [] });

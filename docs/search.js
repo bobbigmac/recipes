@@ -38,138 +38,113 @@ export function searchRecipes(query) {
     .sort((a, b) => b.score - a.score);
 }
 
+// Get query parameter from URL
+function getQueryParam(param) {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(param);
+}
+
+// Update URL with query parameter
+function updateUrlWithQuery(query) {
+  const url = new URL(window.location.href);
+  if (query.trim()) {
+    url.searchParams.set('q', query);
+  } else {
+    url.searchParams.delete('q');
+  }
+  window.history.replaceState({}, '', url);
+}
+
 // Initialize search
 export async function initSearch() {
   await loadSearchIndex();
   
   const filterEl = document.getElementById('filter');
-  const listEl = document.getElementById('list');
+  const recipesContainer = document.getElementById('recipes-container');
   
-  if (!filterEl || !listEl) return;
+  if (!filterEl || !recipesContainer) return;
   
-  // Initial render
-  renderSearchResults(searchIndex);
+  // Check for query parameter on load
+  const initialQuery = getQueryParam('q') || '';
+  if (initialQuery) {
+    filterEl.value = initialQuery;
+    const results = searchRecipes(initialQuery);
+    renderRecipes(results);
+  } else {
+    // Initial render - show all recipes
+    renderRecipes(searchIndex);
+  }
   
-  // Search input handler
-  filterEl.addEventListener('input', (e) => {
-    const query = e.target.value;
-    const results = searchRecipes(query);
-    renderSearchResults(results);
+  // Search on Enter key
+  filterEl.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      const query = e.target.value;
+      updateUrlWithQuery(query);
+      const results = searchRecipes(query);
+      renderRecipes(results);
+    }
   });
 }
 
-// Render search results
-function renderSearchResults(recipes) {
-  const listEl = document.getElementById('list');
-  if (!listEl) return;
+// Render recipes in grid layout
+function renderRecipes(recipes) {
+  const recipesContainer = document.getElementById('recipes-container');
+  if (!recipesContainer) return;
   
-  const recipesList = recipes
-    .map(recipe => `<a href="${recipe.slug}.html" class="item" data-slug="${recipe.slug}">${recipe.title}</a>`)
+  if (recipes.length === 0) {
+    recipesContainer.innerHTML = `
+      <div class="no-results">
+        <p>No recipes found. Try a different search term.</p>
+        <p><small>Or <a href="https://github.com/bobbigmac/recipes/recipes">add your own via Pull Request</a>.</small></p>
+      </div>
+    `;
+    return;
+  }
+  
+  const recipesHtml = recipes
+    .map(recipe => `
+      <div class="recipe-card">
+        <a href="${recipe.slug}.html">
+          <h3>${recipe.title}</h3>
+          <div class="tags">
+            ${recipe.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+          </div>
+        </a>
+      </div>
+    `)
     .join('');
   
-  // Add close button for mobile
-  listEl.innerHTML = `
-    <div class="mobile-aside-header">
-      <button class="close-mobile-menu" aria-label="Close menu">✕</button>
+  recipesContainer.innerHTML = `
+    <div class="recipes-grid">
+      ${recipesHtml}
     </div>
-    ${recipesList}
+    <div style="text-align: center; margin-top: 2rem; padding: 1rem; color: #7f8c8d;">
+      <p><small>Can't find what you're looking for? <a href="https://github.com/bobbigmac/recipes/recipes">Add your own recipe via Pull Request</a>.</small></p>
+      <p><small>No ads, no life stories, just recipes. Because I'm tired of scrolling through SEO-stuffed pages when all I need is an ingredients list and cooking method.</small></p>
+    </div>
   `;
 }
 
-// Mobile menu toggle functions
-function toggleMobileMenu() {
-  document.body.classList.toggle('show-list');
-}
-
-function closeMobileMenu() {
-  document.body.classList.remove('show-list');
-}
-
-// Handle recipe navigation
+// Initialize navigation (simplified for new layout)
 export function initNavigation() {
-  const listEl = document.getElementById('list');
-  const menuToggle = document.getElementById('menu-toggle');
+  // Handle recipe clicks (handled by normal links now)
+  // No special navigation needed for the new layout
   
-  if (!listEl) return;
-  
-  // Handle recipe clicks
-  listEl.addEventListener('click', e => {
-    const link = e.target.closest('a.item');
-    const closeBtn = e.target.closest('.close-mobile-menu');
-    
-    if (link) {
-      e.preventDefault(); // Prevent default link behavior
-      const slug = link.dataset.slug;
-      navigateToRecipe(slug);
-      // Close mobile menu when selecting a recipe
-      closeMobileMenu();
-    } else if (closeBtn) {
-      e.preventDefault();
-      closeMobileMenu();
-    }
-  });
-
-  // Mobile menu toggle
-  if (menuToggle) {
-    menuToggle.addEventListener('click', toggleMobileMenu);
+  // Handle search form on recipe pages
+  const filterEl = document.getElementById('filter');
+  if (filterEl && !document.getElementById('recipes-container')) {
+    // We're on a recipe page, redirect to homepage on search
+    filterEl.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        const query = e.target.value;
+        if (query.trim()) {
+          window.location.href = `/?q=${encodeURIComponent(query)}`;
+        } else {
+          window.location.href = '/';
+        }
+      }
+    });
   }
-
-  // Close mobile menu when clicking the overlay
-  document.addEventListener('click', (e) => {
-    if (document.body.classList.contains('show-list') && e.target === document.body) {
-      closeMobileMenu();
-    }
-  });
-
-  // Close mobile menu with escape key
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && document.body.classList.contains('show-list')) {
-      closeMobileMenu();
-    }
-  });
-}
-
-// Navigate to recipe
-function navigateToRecipe(slug) {
-  const currentPath = window.location.pathname;
-  const isOnRecipePage = !currentPath.endsWith('index.html') && !currentPath.endsWith('/');
-  
-  if (isOnRecipePage) {
-    // Update URL and load content
-    window.history.pushState({ slug }, '', `${slug}.html`);
-    loadRecipeContent(slug);
-  } else {
-    // Navigate to recipe page
-    window.location.href = `${slug}.html`;
-  }
-}
-
-// Load recipe content (for SPA behavior)
-async function loadRecipeContent(slug) {
-  const contentEl = document.getElementById('content');
-  if (!contentEl) return;
-  
-  try {
-    const response = await fetch(`${slug}.html`);
-    const html = await response.text();
-    
-    // Extract content from the main element
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, 'text/html');
-    const mainContent = doc.querySelector('main');
-    
-    if (mainContent) {
-      contentEl.innerHTML = mainContent.innerHTML;
-      document.title = doc.title;
-    }
-  } catch (error) {
-    console.error('Failed to load recipe:', error);
-  }
-}
-
-// Handle browser back/forward
-window.addEventListener('popstate', (event) => {
-  if (event.state && event.state.slug) {
-    loadRecipeContent(event.state.slug);
-  }
-}); 
+} 
