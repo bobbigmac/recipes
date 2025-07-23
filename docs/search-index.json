@@ -455,6 +455,17 @@
     "url": "./omelette.html"
   },
   {
+    "slug": "onion-butty",
+    "title": "Onion Butty",
+    "tags": [
+      "sandwich",
+      "quick",
+      "british"
+    ],
+    "content": "\n  onion butty\n   ingredients\n  1 2 large white onion  sliced\n  plenty of salt\n  plenty of black pepper\n  2 slices of bread\n  garlic mayo\n   instructions\n1  slice the onion thinly and put it in a bowl \n2  add plenty of salt and pepper  then mix well \n3  let it sit for a few minutes so the salt draws out some moisture \n4  spread garlic mayo on one or both slices of bread \n5  pile the seasoned onions between the bread slices \n6  eat  better than beating them away with a stick  ",
+    "url": "./onion-butty.html"
+  },
+  {
     "slug": "perfect-sandwich",
     "title": "Perfect Sandwich",
     "tags": [
