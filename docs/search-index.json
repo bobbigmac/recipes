@@ -313,7 +313,7 @@
       "gluten-free",
       "pizza"
     ],
-    "content": "\n  gluten free pizza dough\n   ingredients\n  1 cup greek yoghurt  full fat preferred \n  1 cup gluten free flour blend\n  1 2 tsp salt\n  1 2 tsp baking powder  optional  for extra lift \n   instructions\n1  in a large bowl  combine yoghurt and gluten free flour blend \n2  mix well with a wooden spoon or your hands until a dough forms \n3  do not overwork the dough   just combine until no dry flour remains \n4  cover the bowl with cling film and refrigerate for 1 hour \n5  roll out on a lightly floured surface  use more gf flour for dusting  \n8  add toppings and bake at 220 c  425 f  for 12 15 minutes until golden \n",
+    "content": "\n  gluten free pizza dough\n   ingredients\n  1 cup greek yoghurt  full fat preferred \n  1 cup gluten free flour blend\n  1 2 tsp salt\n  1 2 tsp baking powder  optional  for extra lift \n   instructions\n1  in a large bowl  combine yoghurt and gluten free flour blend  add a little extra flour until your dough is just about dry to touch \n2  mix well with a wooden spoon or your hands until a dough forms \n3  do not overwork the dough   just combine until no dry flour remains \n4  cover the bowl with cling film and refrigerate for 1 hour \n5  roll out on a lightly floured surface  use more gf flour or cornmeal for dusting  \n8  add toppings and bake at 220 c  425 f  for 12 15 minutes until golden \n",
     "url": "./gluten-free-pizza-dough.html"
   },
   {
@@ -462,7 +462,7 @@
       "quick",
       "british"
     ],
-    "content": "\n  onion butty\n   ingredients\n  1 2 large white onion  sliced\n  plenty of salt\n  plenty of black pepper\n  2 slices of bread\n  garlic mayo\n   instructions\n1  slice the onion thinly and put it in a bowl \n2  add plenty of salt and pepper  then mix well \n3  let it sit for a few minutes so the salt draws out some moisture \n4  spread garlic mayo on one or both slices of bread \n5  pile the seasoned onions between the bread slices \n6  eat  better than beating them away with a stick  ",
+    "content": "\n  onion butty\n   ingredients\n  1 2 large white onion  sliced\n  plenty of salt\n  plenty of black pepper\n  2 slices of bread\n  garlic mayo\n   instructions\n1  slice the onion thinly and put it in a bowl \n2  add plenty of salt and pepper  then mix well \n3  let it sit for a few minutes so the salt draws out some moisture \n4  spread garlic mayo on both slices of bread \n5  pile the seasoned onions between the bread slices  grate a little extra mature cheddar if desired \n6  enjoy  better than beating them away with a stick  ",
     "url": "./onion-butty.html"
   },
   {
@@ -595,6 +595,17 @@
     ],
     "content": "\n  shortcrust pastry\n   ingredients\n  250g plain flour\n  125g cold butter  cubed\n  1 4 tsp salt\n  2 3 tbsp cold water\n   instructions\n1  sift flour and salt into a large bowl \n2  add cold butter and rub in with fingertips until mixture resembles breadcrumbs \n3  gradually add cold water  mixing with a knife until dough just comes together \n4  wrap in cling film and chill for 30 minutes \n5  roll out on a lightly floured surface to desired thickness \n6  use for pies  tarts  or quiches ",
     "url": "./shortcrust-pastry.html"
+  },
+  {
+    "slug": "snishers",
+    "title": "Snickers-ish Bars",
+    "tags": [
+      "dessert",
+      "snickers",
+      "chocolate"
+    ],
+    "content": "\n  pistachio nougat caramel bars\n   ingredients\n    nougat  lower sugar \n  200g marshmallow cr me\n  80g smooth pistachio or peanut butter\n  120g pistachios  finely ground\n  30g milk powder or whey isolate  optional \n  20g glucose corn syrup\n  20g unsalted butter\n  5g vanilla extract\n  2g fine salt\n    caramel\n  150g caster sugar\n  20g glucose corn syrup\n  80g double cream  warmed \n  40g unsalted butter\n  2g fine salt\n    nuts   coating\n  200g roasted pistachios  rough chopped  or peanuts \n  600g milk chocolate  tempered  or 400g milk   200g dark \n yields  16 bars    60g each  \n   instructions\n1  line a 20 30 cm tin with parchment \n2    nougat    melt butter  cr me  and glucose over low heat until smooth  stir in nut butter  vanilla  salt  fold in ground pistachios    milk powder whey   spread  1 1 2 cm thick in tin  chill 20 min \n3    caramel    cook sugar   glucose to medium amber  170 175  c   off heat  whisk in warm cream gradually  then butter and salt  return to 118 120  c  pour over nougat  4 5 mm thick \n4  scatter chopped pistachios over caramel  press in lightly  chill until firm \n5  remove slab  trim edges  cut into 16 bars  freeze 15 20 min \n6    coat    dip bars in tempered chocolate  let set at 18 20  c  store cool  airtight \n",
+    "url": "./snishers.html"
   },
   {
     "slug": "sourdough-bread",

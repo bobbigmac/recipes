@@ -21,6 +21,9 @@ h1 a {text-decoration: none; color: inherit;}
 .recipe-content{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-top:2rem;}
 .ingredients-section,.instructions-section{background:#fff;padding:1.5rem;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);}
 
+/* Full-width for other sections */
+.other-section{grid-column:1/-1;background:#fff;padding:1.5rem;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);margin-top:1rem;}
+
 /* Links section styling */
 .links-section{grid-column:1/-1;background:#fff;padding:1.5rem;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);margin-top:1rem;}
 .links-section h2::before{content:"🔗";}

@@ -49,31 +49,61 @@ for (const file of readdirSync(srcDir)) {
       const sectionContent = lines.slice(1).join('\n').trim();
       
       if (sectionTitle.toLowerCase().includes('ingredient')) {
-        // Convert ingredients list to HTML
-        const ingredients = sectionContent.split('\n').filter(line => line.trim().startsWith('-'));
-        const ingredientsHtml = ingredients.map(ingredient => 
-          `<li>${ingredient.replace(/^- /, '').trim()}</li>`
-        ).join('');
-        
-        htmlBody += `
-          <div class="ingredients-section">
-            <h2>Ingredients</h2>
-            <ul>${ingredientsHtml}</ul>
-          </div>
-        `;
+        // Support sub-sections (### ...) and '-' or '*' bullets
+        const lines = sectionContent.split('\n');
+        const groups = [{ title: null, items: [] }];
+        for (const raw of lines) {
+          const line = raw.trim();
+          if (!line) continue;
+          if (line.startsWith('### ')) {
+            groups.push({ title: line.replace(/^###\s+/, '').trim(), items: [] });
+            continue;
+          }
+          if (/^[-*]\s+/.test(line)) {
+            groups[groups.length - 1].items.push(line.replace(/^[-*]\s+/, '').trim());
+          }
+        }
+        let ingredientsHtml = '<div class="ingredients-section">\n  <h2>Ingredients</h2>\n';
+        const hasGroups = groups.length > 1 || groups[0].title !== null;
+        if (hasGroups) {
+          for (const g of groups) {
+            if (g.items.length === 0) continue;
+            if (g.title) ingredientsHtml += `  <h3>${g.title}</h3>\n`;
+            ingredientsHtml += `  <ul>${g.items.map(i => `<li>${i}</li>`).join('')}</ul>\n`;
+          }
+        } else {
+          ingredientsHtml += `  <ul>${groups[0].items.map(i => `<li>${i}</li>`).join('')}</ul>\n`;
+        }
+        ingredientsHtml += '</div>';
+        htmlBody += `\n${ingredientsHtml}\n`;
              } else if (sectionTitle.toLowerCase().includes('instruction')) {
-         // Convert instructions list to HTML
-         const instructions = sectionContent.split('\n').filter(line => /^\d+\./.test(line.trim()));
-         const instructionsHtml = instructions.map((instruction, index) => 
-           `<li>${instruction.replace(/^\d+\.\s*/, '').trim()}</li>`
-         ).join('');
-         
-         htmlBody += `
-           <div class="instructions-section">
-             <h2>Instructions</h2>
-             <ol>${instructionsHtml}</ol>
-           </div>
-         `;
+         // Support sub-sections (### ...) with numbered steps
+         const lines = sectionContent.split('\n');
+         const groups = [{ title: null, items: [] }];
+         for (const raw of lines) {
+           const line = raw.trim();
+           if (!line) continue;
+           if (line.startsWith('### ')) {
+             groups.push({ title: line.replace(/^###\s+/, '').trim(), items: [] });
+             continue;
+           }
+           if (/^\d+\.\s+/.test(line)) {
+             groups[groups.length - 1].items.push(line.replace(/^\d+\.\s+/, '').trim());
+           }
+         }
+         let instructionsHtml = '<div class="instructions-section">\n  <h2>Instructions</h2>\n';
+         const hasGroups = groups.length > 1 || groups[0].title !== null;
+         if (hasGroups) {
+           for (const g of groups) {
+             if (g.items.length === 0) continue;
+             if (g.title) instructionsHtml += `  <h3>${g.title}</h3>\n`;
+             instructionsHtml += `  <ol>${g.items.map(i => `<li>${i}</li>`).join('')}</ol>\n`;
+           }
+         } else {
+           instructionsHtml += `  <ol>${groups[0].items.map(i => `<li>${i}</li>`).join('')}</ol>\n`;
+         }
+         instructionsHtml += '</div>';
+         htmlBody += `\n${instructionsHtml}\n`;
        } else if (sectionTitle.toLowerCase().includes('link')) {
          // Convert links list to HTML
          const links = sectionContent.split('\n').filter(line => line.trim().startsWith('-'));
@@ -95,9 +125,9 @@ for (const file of readdirSync(srcDir)) {
            </div>
          `;
        } else {
-         // Other sections use standard markdown rendering
+         // Other sections use standard markdown rendering, span full width
          const sectionHtml = md.render(`## ${section}`);
-         htmlBody += sectionHtml;
+         htmlBody += `\n<div class=\"other-section\">\n${sectionHtml}\n</div>\n`;
        }
     }
     
