@@ -1,5 +1,6 @@
 import { readFileSync, readdirSync, mkdirSync, writeFileSync, copyFileSync } from 'fs';
 import { join, dirname } from 'path';
+import { createHash } from 'crypto';
 import matter from 'gray-matter';
 import MarkdownIt from 'markdown-it';
 
@@ -12,10 +13,21 @@ mkdirSync(outDir, { recursive: true });
 
 // Build recipes and collect meta
 const list = [];
+const buildHash = createHash('sha256');
+
+function hashFileContents(path) {
+  buildHash.update(readFileSync(path));
+  buildHash.update('\0');
+}
+
 for (const file of readdirSync(srcDir)) {
   if (!file.endsWith('.md')) continue;
   const srcPath = join(srcDir, file);
   const src = readFileSync(srcPath, 'utf8');
+  buildHash.update(file);
+  buildHash.update('\0');
+  buildHash.update(src);
+  buildHash.update('\0');
   const { data, content } = matter(src);
   const slug = file.replace(/\.md$/, '');
   
@@ -196,5 +208,85 @@ copyFileSync('src/style.css', join(outDir, 'style.css'));
 copyFileSync('src/app.js', join(outDir, 'app.js'));
 copyFileSync('src/search.js', join(outDir, 'search.js'));
 copyFileSync('src/share.js', join(outDir, 'share.js'));
+
+hashFileContents('src/index.html');
+hashFileContents('src/style.css');
+hashFileContents('src/app.js');
+hashFileContents('src/search.js');
+hashFileContents('src/share.js');
+hashFileContents('scripts/build.js');
+
+const cacheName = `recipes-${buildHash.digest('hex').slice(0, 12)}`;
+const precacheUrls = [
+  './',
+  './index.html',
+  './style.css',
+  './app.js',
+  './search.js',
+  './share.js',
+  './recipes.json',
+  './search-index.json',
+  ...list.map(recipe => `./${recipe.slug}.html`)
+];
+
+writeFileSync(join(outDir, 'sw.js'), `const CACHE_NAME = ${JSON.stringify(cacheName)};
+const PRECACHE_URLS = ${JSON.stringify(precacheUrls, null, 2)};
+
+self.addEventListener('install', (event) => {
+  event.waitUntil((async () => {
+    const cache = await caches.open(CACHE_NAME);
+    await cache.addAll(PRECACHE_URLS);
+    self.skipWaiting();
+  })());
+});
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil((async () => {
+    const keys = await caches.keys();
+    await Promise.all(keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key)));
+    await self.clients.claim();
+  })());
+});
+
+async function networkFirst(request) {
+  const cache = await caches.open(CACHE_NAME);
+  try {
+    const response = await fetch(request);
+    if (response && response.ok) {
+      cache.put(request, response.clone());
+    }
+    return response;
+  } catch {
+    const cached = await cache.match(request) || await cache.match('./index.html');
+    if (cached) return cached;
+    throw new Error('No cached response available');
+  }
+}
+
+async function cacheFirst(request) {
+  const cache = await caches.open(CACHE_NAME);
+  const cached = await cache.match(request);
+  if (cached) return cached;
+  const response = await fetch(request);
+  if (response && response.ok) {
+    cache.put(request, response.clone());
+  }
+  return response;
+}
+
+self.addEventListener('fetch', (event) => {
+  if (event.request.method !== 'GET') return;
+
+  const url = new URL(event.request.url);
+  if (url.origin !== self.location.origin) return;
+
+  if (event.request.mode === 'navigate' || url.pathname.endsWith('.html') || url.pathname.endsWith('.json')) {
+    event.respondWith(networkFirst(event.request));
+    return;
+  }
+
+  event.respondWith(cacheFirst(event.request));
+});
+`);
 
 console.log('Build complete. Recipes:', list.length);

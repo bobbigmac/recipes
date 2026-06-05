@@ -1,11 +1,58 @@
 // Search functionality module
 let searchIndex = [];
+const READ_STORAGE_KEY = 'recipes:last-read:v1';
+
+function getStoredReads() {
+  try {
+    const raw = window.localStorage.getItem(READ_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch {
+    return {};
+  }
+}
+
+function setStoredReads(reads) {
+  try {
+    window.localStorage.setItem(READ_STORAGE_KEY, JSON.stringify(reads));
+  } catch {
+    // Ignore storage failures; the app still works without persistence.
+  }
+}
+
+function getLastRead(slug) {
+  const reads = getStoredReads();
+  return Number(reads[slug] || 0);
+}
+
+export function markRecipeRead(slug) {
+  if (!slug) return;
+  const reads = getStoredReads();
+  reads[slug] = Date.now();
+  setStoredReads(reads);
+}
+
+function getCurrentRecipeSlug() {
+  const pathname = window.location.pathname.replace(/\/+$/, '');
+  const lastSegment = pathname.split('/').pop() || '';
+
+  if (!lastSegment || lastSegment === 'index.html') return null;
+
+  return lastSegment.replace(/\.html$/, '');
+}
+
+function sortByRecentRead(recipes) {
+  return [...recipes].sort((a, b) => {
+    const readDiff = getLastRead(b.slug) - getLastRead(a.slug);
+    if (readDiff !== 0) return readDiff;
+    return a.title.localeCompare(b.title);
+  });
+}
 
 // Load search index
 export async function loadSearchIndex() {
   try {
     const basePath = window.SITE_CONFIG?.basePath || './';
-    const response = await fetch(`${basePath}search-index.json`);
+    const response = await fetch(`${basePath}search-index.json`, { cache: 'no-store' });
     searchIndex = await response.json();
   } catch (error) {
     console.error('Failed to load search index:', error);
@@ -35,7 +82,13 @@ export function searchRecipes(query) {
       return { ...recipe, score };
     })
     .filter(recipe => recipe.score > 0)
-    .sort((a, b) => b.score - a.score);
+    .sort((a, b) => {
+      const scoreDiff = b.score - a.score;
+      if (scoreDiff !== 0) return scoreDiff;
+      const readDiff = getLastRead(b.slug) - getLastRead(a.slug);
+      if (readDiff !== 0) return readDiff;
+      return a.title.localeCompare(b.title);
+    });
 }
 
 // Get query parameter from URL
@@ -71,19 +124,15 @@ export async function initSearch() {
     const results = searchRecipes(initialQuery);
     renderRecipes(results);
   } else {
-    // Initial render - show all recipes
-    renderRecipes(searchIndex);
+    // Initial render - show all recipes, ordered by recent reads.
+    renderRecipes(sortByRecentRead(searchIndex));
   }
-  
-  // Search on Enter key
-  filterEl.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') {
-      e.preventDefault();
-      const query = e.target.value;
-      updateUrlWithQuery(query);
-      const results = searchRecipes(query);
-      renderRecipes(results);
-    }
+
+  filterEl.addEventListener('input', (e) => {
+    const query = e.target.value;
+    updateUrlWithQuery(query);
+    const results = query.trim() ? searchRecipes(query) : sortByRecentRead(searchIndex);
+    renderRecipes(results);
   });
 }
 
@@ -134,6 +183,8 @@ export function initNavigation() {
   // Handle search form on recipe pages
   const filterEl = document.getElementById('filter');
   if (filterEl && !document.getElementById('recipes-container')) {
+    markRecipeRead(getCurrentRecipeSlug());
+
     // We're on a recipe page, redirect to homepage on search
     filterEl.addEventListener('keydown', (e) => {
       if (e.key === 'Enter') {
