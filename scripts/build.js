@@ -11,6 +11,35 @@ const outDir = 'docs';
 
 mkdirSync(outDir, { recursive: true });
 
+function extractBakeBadges(sectionContent) {
+  const lines = sectionContent.split('\n');
+  const badges = [];
+  const seen = new Set();
+
+  for (const raw of lines) {
+    const line = raw.trim();
+    if (!line || !/(bake|baked|baking|oven|preheat|roast)/i.test(line)) continue;
+
+    for (const match of line.matchAll(/\b\d{2,3}\s*°\s*[CF]\b/gi)) {
+      const value = match[0].replace(/\s+/g, '').replace(/°([CF])/i, '°$1');
+      if (!seen.has(value)) {
+        seen.add(value);
+        badges.push(value);
+      }
+    }
+
+    for (const match of line.matchAll(/\b\d+\s*(?:-\s*\d+)?\s*(?:min|mins|minute|minutes|hour|hours|hr|hrs)\b/gi)) {
+      const value = match[0].replace(/\s+/g, ' ').replace(/\s*-\s*/g, '-');
+      if (!seen.has(value)) {
+        seen.add(value);
+        badges.push(value);
+      }
+    }
+  }
+
+  return badges;
+}
+
 // Build recipes and collect meta
 const list = [];
 const buildHash = createHash('sha256');
@@ -41,12 +70,29 @@ for (const file of readdirSync(srcDir)) {
   // Parse content into sections and create custom HTML structure
   const sections = cleanedContent.split('## ');
   let htmlBody = '';
+  let recipeBadges = [];
+  for (let i = 1; i < sections.length; i++) {
+    const section = sections[i].trim();
+    if (!section) continue;
+
+    const lines = section.split('\n');
+    const sectionTitle = lines[0].trim();
+    const sectionContent = lines.slice(1).join('\n').trim();
+
+    if (sectionTitle.toLowerCase().includes('instruction')) {
+      recipeBadges = extractBakeBadges(sectionContent);
+      break;
+    }
+  }
   
   if (sections.length > 1) {
     // Title section (first section)
     const titleSection = sections[0].trim();
     if (titleSection) {
       htmlBody += `<h1>${titleSection.replace('# ', '')}</h1>`;
+    }
+    if (recipeBadges.length > 0) {
+      htmlBody += `<div class="recipe-badges">${recipeBadges.map(badge => `<span class="recipe-badge">${badge}</span>`).join('')}</div>`;
     }
     
     // Create two-column layout for ingredients and instructions
