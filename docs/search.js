@@ -52,10 +52,42 @@ function sortByRecentRead(recipes) {
 export async function loadSearchIndex() {
   try {
     const basePath = window.SITE_CONFIG?.basePath || './';
+    const cached = await loadCachedJson(`${basePath}search-index.json`);
+    if (cached) {
+      searchIndex = cached;
+      return 'cache';
+    }
+
     const response = await fetch(`${basePath}search-index.json`, { cache: 'no-store' });
     searchIndex = await response.json();
+    return 'network';
   } catch (error) {
     console.error('Failed to load search index:', error);
+    return 'error';
+  }
+}
+
+async function loadCachedJson(url) {
+  if (!('caches' in window)) return null;
+
+  try {
+    const response = await caches.match(url);
+    if (!response) return null;
+    return await response.json();
+  } catch {
+    return null;
+  }
+}
+
+async function refreshSearchIndex() {
+  try {
+    const basePath = window.SITE_CONFIG?.basePath || './';
+    const response = await fetch(`${basePath}search-index.json`, { cache: 'no-store' });
+    searchIndex = await response.json();
+    return true;
+  } catch (error) {
+    console.error('Failed to refresh search index:', error);
+    return false;
   }
 }
 
@@ -110,12 +142,12 @@ function updateUrlWithQuery(query) {
 
 // Initialize search
 export async function initSearch() {
-  await loadSearchIndex();
-  
   const filterEl = document.getElementById('filter');
   const recipesContainer = document.getElementById('recipes-container');
   
   if (!filterEl || !recipesContainer) return;
+
+  const loadSource = await loadSearchIndex();
   
   // Check for query parameter on load
   const initialQuery = getQueryParam('q') || '';
@@ -126,6 +158,16 @@ export async function initSearch() {
   } else {
     // Initial render - show all recipes, ordered by recent reads.
     renderRecipes(sortByRecentRead(searchIndex));
+  }
+
+  if (loadSource === 'cache') {
+    void refreshSearchIndex().then((updated) => {
+      if (updated) {
+        const query = filterEl.value || '';
+        const results = query.trim() ? searchRecipes(query) : sortByRecentRead(searchIndex);
+        renderRecipes(results);
+      }
+    });
   }
 
   filterEl.addEventListener('input', (e) => {

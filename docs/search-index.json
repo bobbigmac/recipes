@@ -499,6 +499,16 @@
     "url": "./puff-pastry.html"
   },
   {
+    "slug": "quiche",
+    "title": "Simple Quiche",
+    "tags": [
+      "main",
+      "bake"
+    ],
+    "content": "\n  simple quiche\n   ingredients\n  1 sheet shortcrust pastry\n  4 eggs\n  200ml cream or milk\n  100g grated cheese\n  salt and pepper\n  optional cooked bacon or onion\n   instructions\n1  preheat oven to 180 c  line a 20cm tin with pastry  prick the base  and blind bake for 10 min \n2  whisk eggs  cream  cheese  salt  pepper  and any filling \n3  pour into the case and bake for 25 30 min  until set and golden \n",
+    "url": "./quiche.html"
+  },
+  {
     "slug": "ramen",
     "title": "Ramen",
     "tags": [
