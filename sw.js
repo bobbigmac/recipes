@@ -1,4 +1,4 @@
-const CACHE_NAME = "recipes-8cf6d4dcbc9e";
+const CACHE_NAME = "recipes-74823dc55f3f";
 const PRECACHE_URLS = [
   "./",
   "./index.html",
@@ -55,6 +55,7 @@ const PRECACHE_URLS = [
   "./perfect-sandwich.html",
   "./ploughmans-lunch.html",
   "./puff-pastry.html",
+  "./quiche.html",
   "./ramen.html",
   "./ratatouille.html",
   "./red-curry.html",
